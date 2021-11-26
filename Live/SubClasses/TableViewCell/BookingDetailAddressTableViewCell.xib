@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Roman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingDetailAddressTableViewCell" rowHeight="333" id="KGk-i7-Jjw" customClass="BookingDetailAddressTableViewCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="365"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="364.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59w-vd-pHj">
+                        <rect key="frame" x="20" y="5" width="350" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meeting Point" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vk7-tl-rDs">
+                                <rect key="frame" x="0.0" y="0.0" width="350" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="ATI-F9-pww"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BL3-pW-mpS">
+                                <rect key="frame" x="0.0" y="27" width="350" height="8"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BL3-pW-mpS" firstAttribute="top" secondItem="Vk7-tl-rDs" secondAttribute="bottom" constant="3" id="6eh-gH-ykf"/>
+                            <constraint firstAttribute="trailing" secondItem="Vk7-tl-rDs" secondAttribute="trailing" id="9yx-eW-qpA"/>
+                            <constraint firstItem="Vk7-tl-rDs" firstAttribute="width" secondItem="59w-vd-pHj" secondAttribute="width" id="CZ4-2t-yqI"/>
+                            <constraint firstItem="BL3-pW-mpS" firstAttribute="leading" secondItem="Vk7-tl-rDs" secondAttribute="leading" id="H5B-WU-bDJ"/>
+                            <constraint firstItem="Vk7-tl-rDs" firstAttribute="top" secondItem="59w-vd-pHj" secondAttribute="top" id="XkC-eR-8Ik"/>
+                            <constraint firstAttribute="bottom" secondItem="BL3-pW-mpS" secondAttribute="bottom" id="e1g-Yd-XaH"/>
+                            <constraint firstItem="Vk7-tl-rDs" firstAttribute="leading" secondItem="59w-vd-pHj" secondAttribute="leading" id="nUc-F3-YQn"/>
+                            <constraint firstItem="BL3-pW-mpS" firstAttribute="trailing" secondItem="Vk7-tl-rDs" secondAttribute="trailing" id="v1k-jk-GG9"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egs-UU-m5X">
+                        <rect key="frame" x="20" y="43" width="335" height="321.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sk1-V2-uKi" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="335" height="255"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="255" id="kei-wN-u17"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-a2-An4">
+                                <rect key="frame" x="20" y="269.5" width="295" height="22"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculating distance..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Zm-mg-074">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="5re-tg-vkx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="5Iu-U1-AUb"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Zm-mg-074" secondAttribute="bottom" id="ED3-ee-Xc7"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Zm-mg-074" secondAttribute="trailing" id="i25-W4-w5q"/>
+                                    <constraint firstItem="7Zm-mg-074" firstAttribute="top" secondItem="Be8-a2-An4" secondAttribute="top" id="rwP-Ao-16X"/>
+                                    <constraint firstItem="7Zm-mg-074" firstAttribute="leading" secondItem="Be8-a2-An4" secondAttribute="leading" id="uok-Om-m8p"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGW-fk-mg9">
+                                <rect key="frame" x="271" y="131.5" width="56" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="5Nz-bG-p1d"/>
+                                    <constraint firstAttribute="width" constant="56" id="l9i-uj-YSE"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="updatedMapNavigation"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCO-ta-M6m">
+                                <rect key="frame" x="271" y="195.5" width="56" height="56"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="92G-UX-7bk"/>
+                                    <constraint firstAttribute="width" constant="56" id="DUM-iZ-c2z"/>
+                                </constraints>
+                                <state key="normal" image="updatedLocationMap"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="pGW-fk-mg9" secondAttribute="trailing" constant="8" id="4ne-VM-ciB"/>
+                            <constraint firstItem="Be8-a2-An4" firstAttribute="top" secondItem="XCO-ta-M6m" secondAttribute="bottom" constant="18" id="8Q5-Iu-vVL"/>
+                            <constraint firstItem="Sk1-V2-uKi" firstAttribute="leading" secondItem="egs-UU-m5X" secondAttribute="leading" id="94G-ey-HN0"/>
+                            <constraint firstAttribute="bottom" secondItem="Be8-a2-An4" secondAttribute="bottom" constant="30" id="FTZ-bf-21S"/>
+                            <constraint firstItem="Be8-a2-An4" firstAttribute="top" secondItem="Sk1-V2-uKi" secondAttribute="bottom" constant="14.5" id="RIa-f5-bOg"/>
+                            <constraint firstItem="Be8-a2-An4" firstAttribute="leading" secondItem="egs-UU-m5X" secondAttribute="leading" constant="20" id="RlX-CM-qh3"/>
+                            <constraint firstAttribute="trailing" secondItem="Be8-a2-An4" secondAttribute="trailing" constant="20" id="i2S-fs-cII"/>
+                            <constraint firstAttribute="trailing" secondItem="XCO-ta-M6m" secondAttribute="trailing" constant="8" id="t4x-Ax-gY5"/>
+                            <constraint firstItem="Sk1-V2-uKi" firstAttribute="top" secondItem="egs-UU-m5X" secondAttribute="top" id="tpo-qO-3tL"/>
+                            <constraint firstAttribute="trailing" secondItem="Sk1-V2-uKi" secondAttribute="trailing" id="vJ3-mT-1By"/>
+                            <constraint firstItem="XCO-ta-M6m" firstAttribute="top" secondItem="pGW-fk-mg9" secondAttribute="bottom" constant="8" id="ywA-xa-Z1K"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="egs-UU-m5X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="9Mw-bT-ypV"/>
+                    <constraint firstItem="59w-vd-pHj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Ei1-dg-lom"/>
+                    <constraint firstAttribute="bottom" secondItem="egs-UU-m5X" secondAttribute="bottom" id="Ela-YI-arc"/>
+                    <constraint firstAttribute="bottom" secondItem="egs-UU-m5X" secondAttribute="bottom" id="Sfx-R4-1Ti"/>
+                    <constraint firstAttribute="trailing" secondItem="59w-vd-pHj" secondAttribute="trailing" constant="5" id="gZz-Hq-fFz"/>
+                    <constraint firstItem="59w-vd-pHj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ga3-dZ-P3V"/>
+                    <constraint firstAttribute="trailing" secondItem="egs-UU-m5X" secondAttribute="trailing" constant="20" id="hrm-2X-btH"/>
+                    <constraint firstItem="egs-UU-m5X" firstAttribute="top" secondItem="59w-vd-pHj" secondAttribute="bottom" constant="3" id="s20-0y-YRo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonMap" destination="XCO-ta-M6m" id="WBw-nK-03R"/>
+                <outlet property="buttonNavigation" destination="pGW-fk-mg9" id="XCx-fC-H6j"/>
+                <outlet property="distanceView" destination="Be8-a2-An4" id="pfx-Ra-GZl"/>
+                <outlet property="durationLbl" destination="7Zm-mg-074" id="XRt-m0-gVK"/>
+                <outlet property="mapDetaiView" destination="egs-UU-m5X" id="iJC-dM-CII"/>
+                <outlet property="mapView" destination="Sk1-V2-uKi" id="0Xn-I1-ZvF"/>
+                <outlet property="meetingLocationDetailLbl" destination="BL3-pW-mpS" id="SZX-Rl-nC4"/>
+                <outlet property="meetingPointLbl" destination="Vk7-tl-rDs" id="bmr-QW-wY5"/>
+            </connections>
+            <point key="canvasLocation" x="23.5" y="-32.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="updatedLocationMap" width="60" height="60"/>
+        <image name="updatedMapNavigation" width="60" height="60"/>
+    </resources>
+</document>

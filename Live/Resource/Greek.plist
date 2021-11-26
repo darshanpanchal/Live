@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>email.placeholder</key>
+	<string>ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ</string>
+	<key>password.placeholder</key>
+	<string>Κωδικός πρόσβασης</string>
+	<key>title.rememberMe</key>
+	<string>Θυμήσου με</string>
+	<key>save.title</key>
+	<string>Αποθηκεύσετε</string>
+	<key>title.skip</key>
+	<string>Παραλείπω</string>
+	<key>title.signIn</key>
+	<string>Σύνδεση</string>
+	<key>title.forgotpassword</key>
+	<string>Ξεχάσατε τον κωδικό σας;</string>
+	<key>title.createNewAccount</key>
+	<string>Δημιουργία νέου λογαριασμού</string>
+	<key>title.FBLogIn</key>
+	<string>Σύνδεση στο Facebook</string>
+	<key>title.whereToNext</key>
+	<string>Πού να έχω;</string>
+	<key>title.chooseCountry</key>
+	<string>Επιλέξτε μια χώρα που θέλετε να μεταβείτε</string>
+	<key>title.searchCountry</key>
+	<string>Αναζήτηση χώρας</string>
+	<key>recoverPassword.title</key>
+	<string>Ανάκτηση κωδικού πρόσβασης</string>
+	<key>confirmPassword.title</key>
+	<string>Επιβεβαίωση Κωδικού</string>
+	<key>pleaseEnterValidEmail.title</key>
+	<string>Εισαγάγετε έγκυρο email</string>
+	<key>pleaseEnterPassword.title</key>
+	<string>Παρακαλούμε εισάγετε τον κωδικό πρόσβασης</string>
+	<key>minRequiredPassword</key>
+	<string>Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 6 ψηφία</string>
+	<key>maxRequiredPassword</key>
+	<string>πληκτρολογήστε τον κωδικό πρόσβασης με μέγιστο αριθμό 15 χαρακτήρων</string>
+	<key>connectionRequiered</key>
+	<string>Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.</string>
+	<key>forgotPasswordDescription</key>
+	<string>Εισαγάγετε το ηλεκτρονικό ταχυδρομείο ηλεκτρονικού ταχυδρομείου που χρησιμοποιείτε για να μπορέσετε να δημιουργήσετε τον νέο κωδικό πρόσβασής σας.</string>
+	<key>alreadyHaveCode.title</key>
+	<string>Έχετε ήδη κωδικό ανάκτησης!</string>
+	<key>next.title</key>
+	<string>Επόμενο</string>
+	<key>enterEmail.title</key>
+	<string>Παρακαλώ εισάγετε email</string>
+	<key>SoonYouWill.title</key>
+	<string>Σύντομα θα είστε μαζί μας και πάλι!</string>
+	<key>emailReceive.title</key>
+	<string>Θα λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου με τις πληροφορίες για να ανακτήσετε τον κωδικό πρόσβασής σας.</string>
+	<key>gotCode.title</key>
+	<string>Λήψη κώδικα ανάκτησης</string>
+	<key>recoveryCode.title</key>
+	<string>Κωδικός ανάκτησης</string>
+	<key>reset.title</key>
+	<string>Επαναφορά</string>
+	<key>confirmPasswordvalidation</key>
+	<string>Εισαγάγετε τον κωδικό επιβεβαίωσης</string>
+	<key>minConfirmPassword</key>
+	<string>Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 6 ψηφία</string>
+	<key>maxConfirmPassword</key>
+	<string>παρακαλώ εισάγετε το πολύ 15 χαρακτήρες επιβεβαίωσης κωδικού πρόσβασης.</string>
+	<key>confirmPasswordAsPassword</key>
+	<string>Οι κωδικοί πρόσβασης δεν ταιριάζουν</string>
+	<key>resetPassword</key>
+	<string>Επαναφέρετε τον κωδικό πρόσβασης</string>
+	<key>ok.title</key>
+	<string>Εντάξει</string>
+	<key>firstName.title</key>
+	<string>Ονομα</string>
+	<key>lastName.title</key>
+	<string>Επίθετο</string>
+	<key>gender.title</key>
+	<string>Γένος</string>
+	<key>male</key>
+	<string>Αρσενικός</string>
+	<key>female</key>
+	<string>Θηλυκός</string>
+	<key>others</key>
+	<string>Αλλα</string>
+	<key>birthDay</key>
+	<string>Γενέθλια (προαιρετικά)</string>
+	<key>specifyGender</key>
+	<string>Προσδιορίστε το φύλο (προαιρετικό)</string>
+	<key>firstNameValidation</key>
+	<string>Εισαγάγετε Όνομα</string>
+	<key>lastNameValidation</key>
+	<string>Εισαγάγετε το επώνυμο</string>
+	<key>agreeTC</key>
+	<string>Συμφωνείτε με τους όρους και τις προϋποθέσεις.</string>
+	<key>password</key>
+	<string>Κωδικός πρόσβασης</string>
+	<key>confirmpassword</key>
+	<string>Επιβεβαίωση Κωδικού</string>
+	<key>pleaseEnter</key>
+	<string>Παρακαλώ περάστε</string>
+	<key>readT&amp;C</key>
+	<string>Διαβάστε T &amp; C</string>
+	<key>register</key>
+	<string>Κανω ΕΓΓΡΑΦΗ</string>
+	<key>createNewAccount</key>
+	<string>Δημιουργία νέου λογαριασμού</string>
+	<key>byRegistering</key>
+	<string>Με την εγγραφή, συμφωνώ με τους Όρους και Προϋποθέσεις.</string>
+	<key>discover</key>
+	<string>Ανακαλύπτω</string>
+	<key>instant</key>
+	<string>Άμεσα διαθέσιμες εμπειρίες</string>
+	<key>Bestrated</key>
+	<string>Καλύτερη βαθμολογία</string>
+	<key>Explorecollections</key>
+	<string>Εξερευνήστε τις συλλογές</string>
+	<key>Topratedguides</key>
+	<string>Κορυφαίοι οδηγοί</string>
+	<key>AllExperiences</key>
+	<string>Όλες οι εμπειρίες</string>
+	<key>instantDesc</key>
+	<string>κλείστε μια περιήγηση γύρω από την ώρα</string>
+	<key>bestRateDesc</key>
+	<string>Κάντε κράτηση τώρα μια από τις καλύτερες εμπειρίες μας!</string>
+	<key>exploreDesc</key>
+	<string>Επιλέξτε τη διάθεση που θέλετε να δοκιμάσετε.</string>
+	<key>nothingToSee</key>
+	<string>Τίποτα που δεν βλέπει ...</string>
+	<key>filter</key>
+	<string>Φίλτρα</string>
+	<key>showMore</key>
+	<string>Δείτε περισσότερα</string>
+	<key>MaximumPeople:</key>
+	<string>Μέγιστα άτομα:</string>
+	<key>MinimumPeople:</key>
+	<string>Ελάχιστο άτομο:</string>
+	<key>InstantBooking</key>
+	<string>Άμεση Κράτηση</string>
+	<key>InstantBookingAelrt</key>
+	<string>Όταν πραγματοποιείτε μια άμεση κράτηση, οφείλεται σε 1 ώρα. Θέλετε να κάνετε κράτηση;</string>
+	<key>yes</key>
+	<string>Ναί</string>
+	<key>no</key>
+	<string>Οχι</string>
+	<key>theGuide</key>
+	<string>Ο οδηγός</string>
+	<key>meetingPoint</key>
+	<string>Σημείο συνάντησης</string>
+	<key>Instant</key>
+	<string>Στιγμή</string>
+	<key>BookNow</key>
+	<string>Κάνετε κράτηση τώρα</string>
+	<key>Information</key>
+	<string>Πληροφορίες</string>
+	<key>notBookTourMsg</key>
+	<string>Δεν μπορείτε να κλείσετε τη δική σας περιοδεία!</string>
+	<key>Accessible</key>
+	<string>Προσιτός</string>
+	<key>PetFriendly</key>
+	<string>Φιλικό προς κατοικίδια</string>
+	<key>FreeElderly</key>
+	<string>Δωρεάν για ηλικιωμένους</string>
+	<key>review</key>
+	<string>Κριτικές</string>
+	<key>Mode</key>
+	<string>Τρόπος</string>
+	<key>chooseMode</key>
+	<string>Επιλέξτε τη λειτουργία ταξιδιού από</string>
+	<key>Cancel</key>
+	<string>Ματαίωση</string>
+	<key>Driving</key>
+	<string>Οδήγηση</string>
+	<key>Walking</key>
+	<string>Το περπάτημα</string>
+	<key>Bicycling</key>
+	<string>Ποδηλασία</string>
+	<key>Transit</key>
+	<string>Διαμετακόμιση</string>
+	<key>Booking</key>
+	<string>Κράτηση</string>
+	<key>when</key>
+	<string>Πότε</string>
+	<key>Time</key>
+	<string>χρόνος</string>
+	<key>HowManyGuest</key>
+	<string>Πόσα άτομα;</string>
+	<key>BookingOption</key>
+	<string>Επιλογές κρατήσεων</string>
+	<key>priceperperson</key>
+	<string>Τιμή ανά άτομο</string>
+	<key>pricepergroup</key>
+	<string>Τιμή ανά άτομο</string>
+	<key>person</key>
+	<string>Πρόσωπο</string>
+	<key>noTimeSlot</key>
+	<string>Δεν υπάρχουν διαθέσιμα χρονικά διαθέσιμα για την τρέχουσα επιλεγμένη ημερομηνία.</string>
+	<key>noTimeSlot.title</key>
+	<string>Χωρίς Χρονοθυρίδες</string>
+	<key>UpcomingExperience</key>
+	<string>Επόμενη Εμπειρία</string>
+	<key>BecomeGuide</key>
+	<string>Πιστοποιημένο αίτημα οδηγού</string>
+	<key>Settings</key>
+	<string>Ρυθμίσεις προφίλ</string>
+	<key>TermsandConditions</key>
+	<string>Οροι και Προϋποθέσεις</string>
+	<key>Logout</key>
+	<string>Αποσυνδέση</string>
+	<key>MySchedule</key>
+	<string>Το πρόγραμμά μου</string>
+	<key>MyTours</key>
+	<string>Οι εκδρομές μου</string>
+	<key>RequestLocation</key>
+	<string>Αίτημα θέσης</string>
+	<key>Location</key>
+	<string>Τοποθεσία</string>
+	<key>Payment</key>
+	<string>Πληρωμή</string>
+	<key>BankDetail</key>
+	<string>Λεπτομέρεια Τράπεζας</string>
+	<key>Description</key>
+	<string>Περιγραφή</string>
+	<key>ChangePassword</key>
+	<string>Άλλαξε κωδικό</string>
+	<key>ChangeLanguage</key>
+	<string>Γλώσσα εφαρμογών</string>
+	<key>notLogin.title</key>
+	<string>Απαιτείται σύνδεση</string>
+	<key>notLogin.msg</key>
+	<string>Παρακαλώ συνδεθείτε για να συνεχίσετε.</string>
+	<key>ProfileImage</key>
+	<string>Εικόνα προφίλ</string>
+	<key>Photos</key>
+	<string>Φωτογραφίες</string>
+	<key>Camera</key>
+	<string>ΦΩΤΟΓΡΑΦΙΚΗ ΜΗΧΑΝΗ</string>
+	<key>Cameranotsupported</key>
+	<string>Η κάμερα δεν υποστηρίζεται στον προσομοιωτή.</string>
+	<key>ChangeLocation</key>
+	<string>Αλλαγή τοποθεσίας</string>
+	<key>ChangeLocation.msg</key>
+	<string>Δεν είναι δυνατό να αλλάξετε τη χώρα για το προφίλ οδηγό σας. Ωστόσο, μπορείτε να δημιουργήσετε ένα άλλο προφίλ εισάγοντας μια άλλη διεύθυνση ηλεκτρονικού ταχυδρομείου για μια νέα χώρα και από εδώ μπορείτε να επεξεργαστείτε μόνο την πόλη σας για τη χώρα σας.</string>
+	<key>More</key>
+	<string>Περισσότερο</string>
+	<key>CurrentPassword</key>
+	<string>Ο τρέχων κωδικός πρόσβασης</string>
+	<key>NewPassword</key>
+	<string>Νέος Κωδικός</string>
+	<key>ConfirmPassword</key>
+	<string>Επιβεβαίωση Κωδικού</string>
+	<key>enterCurrentPassword</key>
+	<string>Πληκτρολογήστε τον τρέχοντα κωδικό πρόσβασης</string>
+	<key>enterValidCurrentPassword</key>
+	<string>Εισαγάγετε τον έγκυρο κωδικό πρόσβασης.</string>
+	<key>enterNewPassword</key>
+	<string>Εισαγάγετε νέο κωδικό πρόσβασης</string>
+	<key>minNewPassword</key>
+	<string>Ο κωδικός πρόσβασης πρέπει να έχει τουλάχιστον 6 ψηφία</string>
+	<key>maxNewPassword</key>
+	<string>εισαγάγετε έως και 15 χαρακτήρες νέο κωδικό πρόσβασης.</string>
+	<key>guide</key>
+	<string>Οδηγός</string>
+	<key>traveler</key>
+	<string>Ταξιδιώτης</string>
+	<key>language</key>
+	<string>Γλώσσες</string>
+	<key>bankAccount</key>
+	<string>Τραπεζικός λογαριασμός</string>
+	<key>bankName</key>
+	<string>Ονομα τράπεζας</string>
+	<key>swiftBic</key>
+	<string>Swift Bic</string>
+	<key>iban</key>
+	<string>Iban</string>
+	<key>bankAddress</key>
+	<string>Διεύθυνση τράπεζας</string>
+	<key>bankNameValidation</key>
+	<string>Εισαγάγετε το όνομα της τράπεζας.</string>
+	<key>bankAccountValidation</key>
+	<string>Εισαγάγετε τον τραπεζικό λογαριασμό.</string>
+	<key>swiftBicValidation</key>
+	<string>Εισαγάγετε το Swift bic.</string>
+	<key>iBanValidation</key>
+	<string>Εισαγάγετε τον Iban.</string>
+	<key>descriptionPlaceholder</key>
+	<string>Εδώ προσθέτετε την περιγραφή του εαυτού σας ως οδηγό. Αυτό είναι πολύ σημαντικό και ένα από τα πιο εμφανισμένα μέρη του προφίλ σας. Έτσι κάνετε καλή παρουσίαση του εαυτού σας, των δεξιοτήτων και της ιστορίας σας.</string>
+	<key>languageChangeMsg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να αλλάξετε τη γλώσσα της εφαρμογής;</string>
+	<key>searchLocation</key>
+	<string>Τοποθεσία αναζήτησης</string>
+	<key>SelectLocation</key>
+	<string>Επιλέξτε Τοποθεσία</string>
+	<key>savedCards</key>
+	<string>Αποθηκευμένες κάρτες</string>
+	<key>addCards</key>
+	<string>Προσθήκη κάρτας</string>
+	<key>Pay</key>
+	<string>Πληρωμή</string>
+	<key>nextSetp</key>
+	<string>Επόμενο βήμα</string>
+	<key>card</key>
+	<string>Κάρτα</string>
+	<key>name</key>
+	<string>Ονομα</string>
+	<key>expiryDate</key>
+	<string>MM/YYYY</string>
+	<key>CVV</key>
+	<string>CVV</string>
+	<key>cardNumber</key>
+	<string>Αριθμός κάρτας</string>
+	<key>nameOncard</key>
+	<string>Ονομα στην κάρτα</string>
+	<key>add</key>
+	<string>Προσθέτω</string>
+	<key>addNewCard</key>
+	<string>Προσθήκη νέας κάρτας</string>
+	<key>lblCardHolder</key>
+	<string>Card Holder Name</string>
+	<key>delete</key>
+	<string>Ονομα ιδιοκτήτη κάρτας</string>
+	<key>deleteCardAlertMsg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε την κάρτα;</string>
+	<key>deleteCard.title</key>
+	<string>Διαγράψτε την κάρτα</string>
+	<key>cardNumberValidation</key>
+	<string>Εισαγάγετε τον έγκυρο αριθμό κάρτας</string>
+	<key>cardNameValidation</key>
+	<string>Εισαγάγετε τον έγκυρο αριθμό κάρτας</string>
+	<key>cardDateValidation</key>
+	<string>Εισαγάγετε την έγκυρη ημερομηνία λήξης της κάρτας</string>
+	<key>cardExpiryValidation</key>
+	<string>Καταχωρίστε την ημερομηνία λήξης της κάρτας</string>
+	<key>cardCVVValidation</key>
+	<string>Εισαγάγετε το cvv κάρτας</string>
+	<key>checkOut</key>
+	<string>Ολοκλήρωση αγοράς</string>
+	<key>date</key>
+	<string>Ημερομηνία</string>
+	<key>NumberOfGuest</key>
+	<string>Πόσα άτομα;</string>
+	<key>whichLanguage</key>
+	<string>Ποια γλώσσα?</string>
+	<key>creditCard</key>
+	<string>Πιστωτική κάρτα</string>
+	<key>amount</key>
+	<string>Ποσό</string>
+	<key>groupBooking</key>
+	<string>επισκέπτης (Κρατήσεις Group)</string>
+	<key>bookAndPay</key>
+	<string>BOOK και PAY</string>
+	<key>addNewExperience</key>
+	<string>Προσθέστε νέα εμπειρία</string>
+	<key>lblHintCamera</key>
+	<string>Κάνοντας κλικ στο &quot;+&quot;, μπορείτε να ανεβάσετε εικόνα και βίντεο σχετικά με την εμπειρία σας.</string>
+	<key>experienceTitle</key>
+	<string>Τίτλος της εμπειρίας</string>
+	<key>price</key>
+	<string>Τιμή</string>
+	<key>currency</key>
+	<string>Νόμισμα</string>
+	<key>duration</key>
+	<string>Διάρκεια</string>
+	<key>effort</key>
+	<string>Προσπάθεια</string>
+	<key>MinGuestNumber</key>
+	<string>Ελάχιστος αριθμός επισκεπτών</string>
+	<key>MaxGuestNumber</key>
+	<string>Μέγιστος αριθμός επισκεπτών</string>
+	<key>languages</key>
+	<string>Γλώσσες</string>
+	<key>collections</key>
+	<string>Συλλογή</string>
+	<key>meetingAddress</key>
+	<string>Διεύθυνση συνάντησης</string>
+	<key>postalZip</key>
+	<string>Ταχυδρομική / ταχυδρομική</string>
+	<key>addressReference</key>
+	<string>Αναφορά διεύθυνσης (προαιρετικό)</string>
+	<key>InstantExperience</key>
+	<string>Στιγμιαία εμπειρία</string>
+	<key>WheelchairAccessible</key>
+	<string>προσβάσιμο με αναπηρικό καρότσι</string>
+	<key>FreeChildren</key>
+	<string>Μόνο ενήλικες</string>
+	<key>Restrictions</key>
+	<string>Επιπλέον πληροφορίες</string>
+	<key>addSchedules</key>
+	<string>Προσθήκη Προγραμμάτων</string>
+	<key>newExperience</key>
+	<string>Νέα εμπειρία</string>
+	<key>updateExperience</key>
+	<string>Ενημέρωση εμπειρίας</string>
+	<key>addExperienceAlert.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να αφήσετε την οθόνη επειδή όλες οι αλλαγές θα απορριφθούν;</string>
+	<key>updateExperience.msg</key>
+	<string>Η εμπειρία ενημερώθηκε με επιτυχία.</string>
+	<key>newExperience.msg</key>
+	<string>Η νέα εμπειρία προστέθηκε με επιτυχία.</string>
+	<key>Videos</key>
+	<string>Βίντεο</string>
+	<key>selectMin2Pics</key>
+	<string>Θα πρέπει να υπάρχουν τουλάχιστον 2 εικόνες για να προσθέσετε εμπειρία.</string>
+	<key>experienceTitleValidation</key>
+	<string>Εισαγάγετε έγκυρο τίτλο για εμπειρία.</string>
+	<key>currencyValidation</key>
+	<string>Επιλέξτε έγκυρο νόμισμα</string>
+	<key>personPriceValidation</key>
+	<string>Εισαγάγετε έγκυρη τιμή</string>
+	<key>groupPriceValidation</key>
+	<string>Εισαγάγετε έγκυρη τιμή</string>
+	<key>descriptionValidation</key>
+	<string>Εισαγάγετε έγκυρη περιγραφή.</string>
+	<key>durationValidation</key>
+	<string>Μη έγκυρη διάρκεια</string>
+	<key>effortValidation</key>
+	<string>Μη έγκυρη προσπάθεια</string>
+	<key>minMaxGuest</key>
+	<string>ο μέγιστος αριθμός επισκεπτών πρέπει να είναι μεγαλύτερος από τον ελάχιστο επισκέπτη.</string>
+	<key>langaugeValidation</key>
+	<string>Επιλέξτε τουλάχιστον μία γλώσσα.</string>
+	<key>colletionValidation</key>
+	<string>Επιλέξτε τουλάχιστον μία συλλογή.</string>
+	<key>locationValidation</key>
+	<string>Εισαγάγετε έγκυρη τοποθεσία.</string>
+	<key>meetingAddressValidation</key>
+	<string>Εισαγάγετε έγκυρη τοποθεσία συνάντησης.</string>
+	<key>postalValidation</key>
+	<string>Εισαγάγετε έγκυρη ταχυδρομική / φερμουάρ.</string>
+	<key>restrictionValidation</key>
+	<string>Εισαγάγετε περιορισμό εμπειρίας.</string>
+	<key>scheduleValidation</key>
+	<string>Εισαγάγετε το πρόγραμμα εμπειρίας.</string>
+	<key>Soft</key>
+	<string>Μαλακός</string>
+	<key>Moderate</key>
+	<string>Μέτριος</string>
+	<key>Hard</key>
+	<string>Σκληρά</string>
+	<key>Extreme</key>
+	<string>Ακρο</string>
+	<key>Once</key>
+	<string>Μια φορά</string>
+	<key>Daily</key>
+	<string>Καθημερινά</string>
+	<key>Weekly</key>
+	<string>Εβδομαδιαίος</string>
+	<key>Weekdays</key>
+	<string>Εργάσιμες</string>
+	<key>Monthly</key>
+	<string>Μηνιαίος</string>
+	<key>Monday</key>
+	<string>MON</string>
+	<key>Tuesday</key>
+	<string>TUE</string>
+	<key>Wednesday</key>
+	<string>ΝΥΜΦΕΥΩ</string>
+	<key>Thursday</key>
+	<string>THU</string>
+	<key>Friday</key>
+	<string>FRI</string>
+	<key>Saturday</key>
+	<string>SAT</string>
+	<key>Sunday</key>
+	<string>SUN</string>
+	<key>Select</key>
+	<string>Επιλέγω</string>
+	<key>SearchCity</key>
+	<string>Επιλέξτε πόλη</string>
+	<key>SearchPrice</key>
+	<string>Επιλέξτε τιμή</string>
+	<key>SearchCurrency</key>
+	<string>Επιλέξτε Νόμισμα</string>
+	<key>SearchEffort</key>
+	<string>Επιλέξτε Προσπάθεια</string>
+	<key>SearchLangauge</key>
+	<string>Επιλέξτε Γλώσσες</string>
+	<key>SearchCollection</key>
+	<string>Επιλέξτε Συλλογή</string>
+	<key>SearchOccurence</key>
+	<string>Επιλέξτε Προέλευση</string>
+	<key>SearchWeekDay</key>
+	<string>Επιλέξτε WeekDay</string>
+	<key>requestLocation</key>
+	<string>Αίτημα για τοποθεσία</string>
+	<key>requestLocation.msg</key>
+	<string>Αν δεν βρήκατε την τοποθεσία σας, κάντε κλικ στον παραπάνω σύνδεσμο και προσθέστε νέα τοποθεσία, αφού η διαχειριστής εγκρίνει νέα τοποθεσία που μπορείτε να την δείτε στη λίστα που ακολουθεί</string>
+	<key>howOften?</key>
+	<string>Πόσο συχνά?</string>
+	<key>pickStartTime</key>
+	<string>Επιλέξτε ώρα έναρξης</string>
+	<key>addSchedule</key>
+	<string>Προσθέστε Πρόγραμμα</string>
+	<key>newSchedule</key>
+	<string>Νέο πρόγραμμα</string>
+	<key>newSchedule.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να φύγετε επειδή όλα τα δεδομένα θα χαθούν;</string>
+	<key>SelectDate</key>
+	<string>Επιλέξτε Ημερομηνία</string>
+	<key>PickDay</key>
+	<string>Ημέρα επιλογής</string>
+	<key>Done</key>
+	<string>Εγινε</string>
+	<key>scheduleType</key>
+	<string>Επιλέξτε τύπο προγράμματος.</string>
+	<key>scheduleTime</key>
+	<string>Επιλέξτε τύπο προγράμματος.</string>
+	<key>scheduleDate</key>
+	<string>Επιλέξτε την έγκυρη ημερομηνία προγραμματισμού.</string>
+	<key>scheduleWeekday</key>
+	<string>Επιλέξτε ημερήσια ωράριο.</string>
+	<key>scheduleDay</key>
+	<string>Επιλέξτε την ισχύουσα ημέρα προγραμματισμού.</string>
+	<key>mainImage</key>
+	<string>Κύρια εικόνα</string>
+	<key>ExperienceSchedule</key>
+	<string>Πρόγραμμα εμπειρίας</string>
+	<key>ExperienceSchedule.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το χρονοδιάγραμμα;</string>
+	<key>enterData</key>
+	<string>Εισαγάγετε δεδομένα.</string>
+	<key>selectImage</key>
+	<string>Επιλέξτε εικόνα.</string>
+	<key>selectCountry</key>
+	<string>Επιλέξτε χώρα.</string>
+	<key>enterState</key>
+	<string>Εισαγάγετε την κατάσταση.</string>
+	<key>enterCity</key>
+	<string>Εισαγάγετε την πόλη.</string>
+	<key>LocationImage</key>
+	<string>Εικόνα τοποθεσίας</string>
+	<key>LocationImage.msg</key>
+	<string>Επιλέξτε την εικόνα θέσης από</string>
+	<key>Remove</key>
+	<string>Αφαιρώ</string>
+	<key>SelectCoutry</key>
+	<string>Επιλέξτε χώρα</string>
+	<key>State</key>
+	<string>κατάσταση</string>
+	<key>City</key>
+	<string>Πόλη</string>
+	<key>LocationRequest</key>
+	<string>Αίτημα θέσης</string>
+	<key>Approved</key>
+	<string>(Εγκρίθηκε)</string>
+	<key>logout.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε?</string>
+	<key>MyLive</key>
+	<string>Η ζωή μου</string>
+	<key>CancelTour</key>
+	<string>Ακύρωση περιήγησης</string>
+	<key>CancelTour.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να ακυρώσετε αυτήν την περιοδεία;</string>
+	<key>cancellation.msg</key>
+	<string>Οι ακυρώσεις πρέπει να γίνονται εντός 48 ωρών σύμφωνα με τους κανόνες. Έτσι, αν συνεχίσετε, δεν θα λάβετε επιστροφή χρημάτων. Θέλετε να συνεχίσετε την ακύρωση αυτής της κράτησης;</string>
+	<key>delete.msg</key>
+	<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε;</string>
+	<key>fullSchedule</key>
+	<string>ΠΛΗΡΕΣ ΠΡΟΓΡΑΜΜΑ</string>
+	<key>UpcomingExperiences</key>
+	<string>Προσεχείς εμπειρίες</string>
+	<key>Wishlist</key>
+	<string>Επιθυμητά</string>
+	<key>LivedExperiences</key>
+	<string>Ζωντανές εμπειρίες</string>
+	<key>UpcomingExperiences.msg</key>
+	<string>Εμπειρίες στη λίστα επιθυμιών σας</string>
+	<key>LivedExperiences.msg</key>
+	<string>Οι εμπειρίες που έχετε ζήσει</string>
+	<key>AddNewExperiences</key>
+	<string>ΠΡΟΣΘΗΚΕΣ ΝΕΕΣ ΕΜΠΕΙΡΙΕΣ</string>
+	<key>onlyInstant</key>
+	<string>Μόνο Στιγμιαία Εμπειρία</string>
+	<key>UpToHowMuch?</key>
+	<string>Μέχρι πόσο;</string>
+	<key>apply</key>
+	<string>Ισχύουν</string>
+	<key>EditName</key>
+	<string>Επεξεργασία ονόματος</string>
+	<key>Clear</key>
+	<string>Σαφή</string>
+	<key>findBestExperience</key>
+	<string>Βρείτε την καλύτερη εμπειρία</string>
+	<key>Success</key>
+	<string>Επιτυχία</string>
+	<key>offeredExperiences</key>
+	<string>Προσφέρονται Εμπειρίες</string>
+	<key>offeredExperiences.msg</key>
+	<string>Εμπειρίες από την</string>
+	<key>Pending</key>
+	<string>εκκρεμής</string>
+	<key>Calendar</key>
+	<string>Ημερολόγιο</string>
+	<key>Upcoming</key>
+	<string>Ανερχόμενος</string>
+	<key>History</key>
+	<string>Ιστορία</string>
+	<key>people</key>
+	<string>Ανθρωποι</string>
+	<key>Approved.title</key>
+	<string>Εγκρίθηκε</string>
+	<key>Schedule</key>
+	<string>Πρόγραμμα</string>
+	<key>Chat</key>
+	<string>Κουβέντα</string>
+	<key>Chat.msg</key>
+	<string>Η συζήτηση υπάρχει ήδη με αυτήν την εμπειρία</string>
+	<key>noData</key>
+	<string>Δε βρέθηκαν δεδομένα</string>
+	<key>OTHER</key>
+	<string>Άλλα Προσεχείς</string>
+	<key>UPCOMING</key>
+	<string>ΑΝΕΡΧΟΜΕΝΟΣ</string>
+	<key>EnterMessage</key>
+	<string> Εισαγάγετε μήνυμα</string>
+	<key>SelectExperience</key>
+	<string>Επιλέξτε Εμπειρία</string>
+	<key>guideForChat</key>
+	<string>(Οδηγός)</string>
+	<key>sendBtn</key>
+	<string>Στείλετε</string>
+	<key>share.text1</key>
+	<string>μαζί μας!</string>
+	<key>share.text2</key>
+	<string>Εμπειρία:</string>
+	<key>commonError</key>
+	<string>Κάτι πήγε στραβά.</string>
+	<key>NoInternet</key>
+	<string>Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά.</string>
+	<key>NoInternetPage.text1</key>
+	<string>Δεν διατίθεται σύνδεση στο Internet</string>
+	<key>NoInternetPage.text2</key>
+	<string>Κάτι πήγε στραβά, ελέγξτε με τη σύνδεσή σας .....</string>
+	<key>Retry</key>
+	<string>Ξαναδοκιμάσετε</string>
+	<key>GUIDE</key>
+	<string>ΟΔΗΓΟΣ</string>
+	<key>TRAVELER</key>
+	<string>ΤΑΞΙΔΙΩΤΗΣ</string>
+	<key>review.title</key>
+	<string>Ανασκόπηση</string>
+	<key>review.hint</key>
+	<string>Εισαγάγετε κριτική εδώ ...</string>
+	<key>submit</key>
+	<string>υποβάλλουν</string>
+	<key>CANCEL</key>
+	<string>ΜΑΤΑΙΩΣΗ</string>
+	<key>confirmed</key>
+	<string>επιβεβαιωμένος</string>
+	<key>pending</key>
+	<string>εκκρεμής</string>
+	<key>Activate</key>
+	<string>Θέτω εις ενέργειαν</string>
+	<key>Deactivate</key>
+	<string>Απενεργοποιήστε</string>
+	<key>ActivateTour</key>
+	<string>Ενεργή / Ανενεργή</string>
+	<key>Activate.msg1</key>
+	<string>Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε το</string>
+	<key>Activate.msg2</key>
+	<string>θα είναι πλέον ορατή σε άλλους ταξιδιώτες μετά την ενεργοποίηση</string>
+	<key>DeActivate.msg1</key>
+	<string>Είστε βέβαιοι ότι θέλετε να απενεργοποιήσετε το</string>
+	<key>DeActivate.msg2</key>
+	<string>δεν θα είναι πλέον ορατό σε άλλους ταξιδιώτες μετά την απενεργοποίηση</string>
+	<key>ExperienceDeleted</key>
+	<string>Η εμπειρία διαγράφεται</string>
+	<key>ContactUs</key>
+	<string>Επικοινωνήστε μαζί μας</string>
+	<key>Active</key>
+	<string>Ενεργός</string>
+	<key>InActive</key>
+	<string>Αδρανής</string>
+	<key>pleaseEnterBankAddress.</key>
+	<string>παρακαλώ εισάγετε τη διεύθυνση της τράπεζας</string>
+	<key>pleaseEnterIban.</key>
+	<string>παρακαλώ εισάγετε Iban.</string>
+	<key>pleaseEnterSwiftBic.</key>
+	<string>πληκτρολογήστε Swift Bic.</string>
+	<key>pleaseEnterBankAccount.</key>
+	<string>εισάγετε τον τραπεζικό λογαριασμό.</string>
+	<key>pleaseEnterBankName.</key>
+	<string>εισάγετε το όνομα της Τράπεζας.</string>
+	<key>CalculatingDistance</key>
+	<string>Υπολογισμός απόστασης ...</string>
+	<key>Anonymous</key>
+	<string>Ανώνυμος</string>
+	<key>SearchHere</key>
+	<string>Ψάξε εδώ...</string>
+	<key>HowOften</key>
+	<string>Πόσο συχνά?</string>
+	<key>login_request_message_chat</key>
+	<string>Συνδεθείτε για να χρησιμοποιήσετε τη συζήτηση.</string>
+	<key>login_request_message_mylive</key>
+	<string>Παρακαλούμε συνδεθείτε για να διαχειριστείτε τις εμπειρίες σας.</string>
+	<key>SEND</key>
+	<string>ΣΤΕΙΛΕΤΕ</string>
+	<key>OTHERSUPCOMING</key>
+	<string>ΑΛΛΑ ΠΡΟΩΘΗΣΗ</string>
+	<key>showcaseLocation</key>
+	<string>Αγγίξτε για να εξερευνήσετε περιηγήσεις άλλων χωρών</string>
+	<key>guideRequest.title</key>
+	<string>Οδηγός Αίτησης</string>
+	<key>Experience.title</key>
+	<string>Εμπειρία</string>
+	<key>NoData.chat</key>
+	<string>Δε βρέθηκαν δεδομένα</string>
+	<key>guideRequest.Message</key>
+	<string>Για να γίνετε δεκτός ως οδηγός, πρέπει να είστε πιστοποιημένος οδηγός. Αυτή η πιστοποίηση θα πρέπει να παρέχεται κατόπιν αιτήματος. Καταλαβαίνω ότι είμαι εξειδικευμένος ξεναγός.</string>
+	<key>channelAlreadyDeleted</key>
+	<string>Αυτό το κανάλι έχει ήδη διαγραφεί</string>
+	<key>Country</key>
+	<string>Χώρα</string>
+	<key>deleteConfirmation</key>
+	<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το ιστορικό συζητήσεων;</string>
+	<key>AddBadge.hint</key>
+	<string>Προσθήκη σήματος</string>
+	<key>ProfileImageValidation</key>
+	<string>Μεταφορτώστε την εικόνα προφίλ.</string>
+	<key>BadgeImageValidation</key>
+	<string>Μεταφορτώστε την εικόνα σήματος.</string>
+	<key>guideRequest.Success</key>
+	<string>Το αίτημά σας οδηγού έχει αποσταλεί με επιτυχία. Αφού εγκριθεί από το admin θα ειδοποιήσετε μέσω ηλεκτρονικού ταχυδρομείου.</string>
+	<key>ChangeBadge.hint</key>
+	<string>Αλλαγή σήματος</string>
+	<key>block.hint</key>
+	<string>ΟΙΚΟΔΟΜΙΚΟ ΤΕΤΡΑΓΩΝΟ</string>
+	<key>blockMSG.hint</key>
+	<string>Είστε προσωρινά αποκλεισμένοι, ώστε να μην μπορείτε να συνδεθείτε. Επικοινωνήστε με τον διαχειριστή!</string>
+	<key>err_recovery</key>
+	<string>Εισαγάγετε τον κωδικό ανάκτησης.</string>
+	<key>userType</key>
+	<string>Τύπος χρήστη</string>
+	<key>inquiry</key>
+	<string>Ερευνα</string>
+	<key>selectUserType</key>
+	<string>Επιλέξτε τύπο χρήστη</string>
+	<key>dearAll</key>
+	<string>&quot;Αγαπητέ Ταξιδιώτη, αν η χώρα που επιθυμείτε δεν βρίσκεται σε αυτή τη λίστα, δεν έχουμε ακόμα τη δυνατότητα να επεκταθούμε σε αυτήν τη χώρα. Ωστόσο, θα πρέπει να γνωρίζετε ότι είναι η μεγαλύτερη πρόθεσή μας να επεκταθούμε σε όλες τις περιοχές όσο το δυνατόν συντομότερα. Εάν αφήσετε τη διεύθυνσή σας ηλεκτρονικού ταχυδρομείου κάνοντας κλικ στον παρακάτω σύνδεσμο τότε θα σας στείλουμε πληροφορίες σχετικά με την πρόοδό μας. &quot;</string>
+	<key>click_here</key>
+	<string>Κάντε κλικ ΕΔΩ!</string>
+	<key>SearchHint</key>
+	<string>Ψάξιμο</string>
+	<key>QualifiedGuideRequest</key>
+	<string>Πιστοποιημένο αίτημα οδηγού</string>
+	<key>NoPriceValidation</key>
+	<string>Συμπληρώστε τουλάχιστον μία μέθοδο τιμολόγησης</string>
+	<key>Remove.Hint</key>
+	<string>Αφαιρώ</string>
+	<key>Update</key>
+	<string>Εκσυγχρονίζω</string>
+	<key>History.noData</key>
+	<string>Δεν υπάρχει ιστορικό</string>
+	<key>Description.noData</key>
+	<string>Παρακαλώ εισάγετε την περιγραφή</string>
+	<key>Description.required</key>
+	<string>Παρακαλώ εισάγετε την περιγραφή</string>
+	<key>Pending.status</key>
+	<string>(Εκκρεμής)</string>
+	<key>locationCity</key>
+	<string>Θα χρειαστεί να αποκτήσετε πρόσβαση στην τοποθεσία σας για να έχετε καλύτερη εμπειρία.</string>
+	<key>locationCityAllow</key>
+	<string>Σίγουρα, θα ήθελα αυτό</string>
+	<key>locationCityDontAllow</key>
+	<string>Δεν επιτρέπουν</string>
+	<key>NoSearchResult</key>
+	<string>Δυστυχώς, η αναζήτηση δεν έδωσε τίποτα!</string>
+	<key>EnableLocatioFromSetting</key>
+	<string>Ενεργοποιήστε τις υπηρεσίες τοποθεσίας από τις ρυθμίσεις.</string>
+	<key>LocationDisable</key>
+	<string>Οι τοποθεσίες απενεργοποιούνται</string>
+	<key>Allow</key>
+	<string>Επιτρέπω</string>
+	<key>understandAlertBtn</key>
+	<string>Ναι καταλαβαίνω</string>
+	<key>CountryOptional</key>
+	<string>Σε ποια χώρα βρίσκεσαι?</string>
+	<key>LocationOptional</key>
+	<string>Σε ποια πόλη βρίσκεσαι?</string>
+	<key>guideRequest.message</key>
+	<string>Έχω πιστοποίηση για να χρησιμοποιήσω αυτήν την εφαρμογή ως οδηγό.</string>
+	<key>agreeBtn</key>
+	<string>Ναι εγώ συμφωνώ</string>
+	<key>accept_tour_message</key>
+	<string>Είστε βέβαιοι ότι θέλετε να επιβεβαιώσετε αυτήν την περιοδεία;</string>
+	<key>acceptTour_title</key>
+	<string>Αποδοχή του γύρου</string>
+	<key>haveCC</key>
+	<string>Έχετε κωδικό κουπονιού;</string>
+	<key>Filter</key>
+	<string>Φίλτρο</string>
+	<key>noCouponCode.hint</key>
+	<string>Δεν έχετε κανένα κωδικό κουπονιού.</string>
+	<key>couponcode.hint</key>
+	<string>Κωδικός κουπονιού</string>
+	<key>days.hint</key>
+	<string>ημέρες</string>
+	<key>hours.hint</key>
+	<string>ώρες</string>
+	<key>minutes.hint</key>
+	<string>λεπτά</string>
+	<key>seconds.hint</key>
+	<string>δευτερολέπτων</string>
+	<key>expired.hint</key>
+	<string>έχει λήξει</string>
+	<key>searchCouponCode.hint</key>
+	<string>Αναζήτηση κωδικού κουπονιού</string>
+	<key>usercc.hint</key>
+	<string>Χρήση</string>
+	<key>or.hint</key>
+	<string>Ή</string>
+	<key>pasttime.hint</key>
+	<string>χρόνος που έχετε επιλέξει έχει περάσει παρακαλώ επιλέξτε μελλοντική ώρα</string>
+	<key>share.hint</key>
+	<string>Μερίδιο</string>
+	<key>sharetext.hint</key>
+	<string>θέλετε να μοιραστείτε ότι χρησιμοποιείτε την εφαρμογή LIVE στους φίλους σας στα social media;</string>
+	<key>shareBodyAfterDay.hint</key>
+	<string>έχει απολαύσει τη ζωντανή εφαρμογή</string>
+	<key>directsharefirst.hint</key>
+	<string>Θέλετε να μοιραστείτε την ολοκληρωμένη εμπειρία του γύρου</string>
+	<key>directsharesecond.hint</key>
+	<string>με τους φίλους σου?</string>
+	<key>directsharebody.hint</key>
+	<string>έχει απολαύσει μια εμπειρία με το Live</string>
+	<key>shareReview.hint</key>
+	<string>Θέλετε να μοιραστείτε αυτό το σχόλιο στους φίλους σας;</string>
+	<key>sendInformation.hint</key>
+	<string>Στείλτε μου πληροφορίες</string>
+	<key>gotIt.hint</key>
+	<string>Το κατάλαβα!</string>
+	<key>provision.hint</key>
+	<string>Πρόβλεψη</string>
+	<key>enter.hint</key>
+	<string>Εισαγω</string>
+	<key>detail.hint</key>
+	<string>Λεπτομέριες</string>
+	<key>options.hint</key>
+	<string>Επιλογές</string>
+	<key>passwordRicovery.hint</key>
+	<string>ΑΝΑΚΤΗΣΗ ΚΩΔΙΚΟΥ</string>
+	<key>passwordRicoveryMSG.hint</key>
+	<string>Ένας χρήστης με αυτήν τη διεύθυνση ηλεκτρονικού ταχυδρομείου υπάρχει ήδη, παρακαλούμε πατήστε Password Recovery για να ανακτήσετε τον κωδικό πρόσβασής σας ή δοκιμάστε μια άλλη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+	<key>stripe.hint</key>
+	<string>Ταινία</string>
+	<key>paypal.hint</key>
+	<string>PayPal</string>
+	<key>recover.hint</key>
+	<string>Αναρρώνω</string>
+	<key>forExistingCustomer.hint</key>
+	<string>Για υπάρχοντα Πελάτη</string>
+	<key>registerAsTraveler.hint</key>
+	<string>Εγγραφείτε ως ταξιδιώτης</string>
+	<key>registerAsGuide.hint</key>
+	<string>Εγγραφείτε ως ξεναγός</string>
+	<key>autoSaveExperience.hint</key>
+	<string>Θέλετε να αποθηκεύσετε τις αλλαγές πριν φύγετε;</string>
+	<key>leave.hint</key>
+	<string>Αδεια</string>
+	<key>updateprofilePic.hint</key>
+	<string>Ενημέρωση εικόνας προφίλ</string>
+	<key>takePhoto.hint</key>
+	<string>Βγάλε φωτογραφία</string>
+	<key>deletePhoto.hint</key>
+	<string>Διαγραφή φωτογραφίας</string>
+	<key>mguide.hint</key>
+	<string>Είμαι οδηγός</string>
+	<key>mtraveler.hint</key>
+	<string>Είμαι ταξιδιώτηςr</string>
+	<key>deleteExperenice</key>
+	<string>Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την εμπειρία;</string>
+	<key>CancelExperiences.title</key>
+	<string>Ακύρωση εμπειριών</string>
+	<key>PleaseLogIn.hint</key>
+	<string>Παρακαλούμε συνδεθείτε για να διαχειριστείτε την εμπειρία σας</string>
+	<key>sendReview.title</key>
+	<string>Αποστολή κριτικής</string>
+	<key>selectAsCover.hint</key>
+	<string>Επιλέξτε ως κάλυμμα</string>
+	<key>maxfilter.hint</key>
+	<string>Μέγιστη τιμή για ολόκληρη την περιοδεία</string>
+    <key>PleaseLogIn.Chathint</key>
+    <string>Συνδεθείτε για να διαχειριστείτε τις συνομιλίες σας</string>
+</dict>
+</plist>

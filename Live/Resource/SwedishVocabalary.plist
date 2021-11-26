@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>email.placeholder</key>
+	<string>E-post</string>
+	<key>password.placeholder</key>
+	<string>Lösenord</string>
+	<key>title.rememberMe</key>
+	<string>Kom ihåg mig</string>
+	<key>save.title</key>
+	<string>Spara</string>
+	<key>title.skip</key>
+	<string>Hoppa</string>
+	<key>title.signIn</key>
+	<string>Logga in</string>
+	<key>title.forgotpassword</key>
+	<string>Glömt ditt lösenord</string>
+	<key>title.createNewAccount</key>
+	<string>Skapa nytt konto</string>
+	<key>title.FBLogIn</key>
+	<string>Facebook inloggning</string>
+	<key>title.whereToNext</key>
+	<string>Var till härnäst?</string>
+	<key>title.chooseCountry</key>
+	<string>Var god välj ett land du vill gå till</string>
+	<key>title.searchCountry</key>
+	<string>Sök land</string>
+	<key>recoverPassword.title</key>
+	<string>Återställa lösenord</string>
+	<key>confirmPassword.title</key>
+	<string>Bekräfta lösenord</string>
+	<key>pleaseEnterValidEmail.title</key>
+	<string>Vänligen ange giltig e-post</string>
+	<key>pleaseEnterPassword.title</key>
+	<string>Vänligen ange nuvarande lösenord</string>
+	<key>minRequiredPassword</key>
+	<string>Lösenordet måste ha minst 6 tecken</string>
+	<key>maxRequiredPassword</key>
+	<string>Vänligen ange max 15 tecken lösenord.</string>
+	<key>connectionRequiered</key>
+	<string>Kontrollera din anslutning och försök igen.</string>
+	<key>forgotPasswordDescription</key>
+	<string>Ange ditt Live inloggnings e-post så att vi kan hjälpa dig att skapa ditt nya lösenord.</string>
+	<key>alreadyHaveCode.title</key>
+	<string>Har redan återställningskod!</string>
+	<key>next.title</key>
+	<string>Nästa</string>
+	<key>enterEmail.title</key>
+	<string>Var god ange e-post</string>
+	<key>SoonYouWill.title</key>
+	<string>Snart kommer du att vara med oss​​ igen!</string>
+	<key>emailReceive.title</key>
+	<string>Du får ett e-postmeddelande med informationen för att återställa ditt lösenord.</string>
+	<key>gotCode.title</key>
+	<string>Fått återställningskod</string>
+	<key>recoveryCode.title</key>
+	<string>Återställningskod</string>
+	<key>reset.title</key>
+	<string>Återställa</string>
+	<key>confirmPasswordvalidation</key>
+	<string>Vänligen ange bekräfta lösenordet.</string>
+	<key>minConfirmPassword</key>
+	<string>Vänligen ange minst 6 tecken bekräfta lösenord.</string>
+	<key>maxConfirmPassword</key>
+	<string>Vänligen ange max 15 tecken bekräfta lösenord.</string>
+	<key>confirmPasswordAsPassword</key>
+	<string>Lösenorden matchar inte</string>
+	<key>resetPassword</key>
+	<string>Återställ lösenord</string>
+	<key>ok.title</key>
+	<string>Ok</string>
+	<key>firstName.title</key>
+	<string>Förnamn</string>
+	<key>lastName.title</key>
+	<string>Efternamn</string>
+	<key>gender.title</key>
+	<string>Kön</string>
+	<key>male</key>
+	<string>Manlig</string>
+	<key>female</key>
+	<string>Kvinnlig</string>
+	<key>others</key>
+	<string>Övrigt</string>
+	<key>birthDay</key>
+	<string>Födelsedag (valfritt)</string>
+	<key>specifyGender</key>
+	<string>Ange kön (valfritt)</string>
+	<key>firstNameValidation</key>
+	<string>Var vänlig ange Förnamn</string>
+	<key>lastNameValidation</key>
+	<string>Var vänlig ange Efternamn</string>
+	<key>agreeTC</key>
+	<string>Var god och acceptera Villkoren.</string>
+	<key>password</key>
+	<string>Lösenord</string>
+	<key>confirm password</key>
+	<string>bekräfta lösenord</string>
+	<key>pleaseEnter</key>
+	<string>Stig på</string>
+	<key>readT&amp;C</key>
+	<string>Läs T&amp;C</string>
+	<key>register</key>
+	<string>Registrera</string>
+	<key>createNewAccount</key>
+	<string>Skapa nytt konto</string>
+	<key>byRegistering</key>
+	<string>Genom att registrera accepterar jag villkoren.</string>
+	<key>discover</key>
+	<string>Upptäck</string>
+	<key>instant</key>
+	<string>Omedelbart tillgängliga upplevelser</string>
+	<key>Bestrated</key>
+	<string>Högst rankad</string>
+	<key>Explorecollections</key>
+	<string>Utforska samlingar</string>
+	<key>Topratedguides</key>
+	<string>Högst rankade guider</string>
+	<key>AllExperiences</key>
+	<string>Alla upplevelser</string>
+	<key>instantDesc</key>
+	<string>boka en rundtur i närheten inom en timme</string>
+	<key>bestRateDesc</key>
+	<string>Boka nu en av våra bäst betygsatta upplevelser!</string>
+	<key>exploreDesc</key>
+	<string>Välj det humör du vill experimentera.</string>
+	<key>nothingToSee</key>
+	<string>Ingenting att se...</string>
+	<key>filter</key>
+	<string>Filters</string>
+	<key>showMore</key>
+	<string>Visa mer</string>
+	<key>MaximumPeople:</key>
+	<string>Maximala personer:</string>
+	<key>MinimumPeople:</key>
+	<string>Minsta personer:</string>
+	<key>InstantBooking</key>
+	<string>Direktbokning</string>
+	<key>InstantBookingAelrt</key>
+	<string>När du gör en omedelbar bokning är den giltig I 1 timma. Vill du boka?</string>
+	<key>yes</key>
+	<string>Ja</string>
+	<key>no</key>
+	<string>Nej</string>
+	<key>theGuide</key>
+	<string>Guiden</string>
+	<key>meetingPoint</key>
+	<string>Mötesplats</string>
+	<key>Instant</key>
+	<string>Omedelbar</string>
+	<key>BookNow</key>
+	<string>Boka nu</string>
+	<key>Information</key>
+	<string>Information</string>
+	<key>notBookTourMsg</key>
+	<string>Du kan inte boka din egen tur !!!</string>
+	<key>Accessible</key>
+	<string>Tillgänglig</string>
+	<key>Freechildren</key>
+	<string>Endast vuxna</string>
+	<key>PetFriendly</key>
+	<string>Djurvänlig</string>
+	<key>FreeElderly</key>
+	<string>Gratis för äldre</string>
+	<key>review</key>
+	<string>Recensioner</string>
+	<key>Mode</key>
+	<string>Läge</string>
+	<key>chooseMode</key>
+	<string>Välj färdläge från</string>
+	<key>Cancel</key>
+	<string>Avbryt</string>
+	<key>Driving</key>
+	<string>Körning</string>
+	<key>Walking</key>
+	<string>Gående</string>
+	<key>Bicycling</key>
+	<string>Cykling</string>
+	<key>Transit</key>
+	<string>Genomresa</string>
+	<key>Booking</key>
+	<string>Bokning</string>
+	<key>when</key>
+	<string>När</string>
+	<key>Time</key>
+	<string>Tid</string>
+	<key>HowManyGuest</key>
+	<string>Hur många gäster?</string>
+	<key>BookingOption</key>
+	<string>Bokningsalternativ</string>
+	<key>pricepergroup</key>
+	<string>Pris per grupp</string>
+	<key>priceperperson</key>
+	<string>Pris per person</string>
+	<key>person</key>
+	<string>Person</string>
+	<key>noTimeSlot</key>
+	<string>Inga tidsluckor tillgängliga för aktuellt valt datum.</string>
+	<key>noTimeSlot.title</key>
+	<string>Inga tidsluckor</string>
+	<key>UpcomingExperience</key>
+	<string>Kommande upplevelse</string>
+	<key>BecomeGuide</key>
+	<string>Kvalificerad vägbegäran</string>
+	<key>Settings</key>
+	<string>Profilinställningar</string>
+	<key>TermsandConditions</key>
+	<string>Villkor</string>
+	<key>Logout</key>
+	<string>Logga ut</string>
+	<key>MySchedule</key>
+	<string>Mitt schema</string>
+	<key>MyTours</key>
+	<string>Mina turer</string>
+	<key>RequestLocation</key>
+	<string>Begär plats</string>
+	<key>Location</key>
+	<string>Plats</string>
+	<key>Payment</key>
+	<string>Betalning</string>
+	<key>BankDetail</key>
+	<string>Bankdetalj</string>
+	<key>Description</key>
+	<string>Beskrivning</string>
+	<key>ChangePassword</key>
+	<string>Ändra lösenord</string>
+	<key>ChangeLanguage</key>
+	<string>App språk</string>
+	<key>notLogin.title</key>
+	<string>Inloggning krävs</string>
+	<key>notLogin.msg</key>
+	<string>Var vänlig logga in för att fortsätta.</string>
+	<key>ProfileImage</key>
+	<string>Profilbild</string>
+	<key>Photos</key>
+	<string>Bilder</string>
+	<key>Camera</key>
+	<string>Kamera</string>
+	<key>Cameranotsupported</key>
+	<string>Kameran stöds inte i simulatorn.</string>
+	<key>ChangeLocation</key>
+	<string>Byt plats</string>
+	<key>ChangeLocation.msg</key>
+	<string>Det går inte att byta land för din guideprofil. Du kan dock skapa en ny profil genom att ange en annan e-postadress än tidigare. Hädanefter kan du bara redigera din aktuella stad och inte ditt land.</string>
+	<key>More</key>
+	<string>Mer</string>
+	<key>CurrentPassword</key>
+	<string>Nuvarande lösenord</string>
+	<key>NewPassword</key>
+	<string>Nytt lösenord</string>
+	<key>ConfirmPassword</key>
+	<string>Bekräfta lösenord</string>
+	<key>enterCurrentPassword</key>
+	<string>Vänligen ange nuvarande lösenord</string>
+	<key>enterValidCurrentPassword</key>
+	<string>Vänligen ange ett giltigt lösenord.</string>
+	<key>enterNewPassword</key>
+	<string>Vänligen ange nytt lösenord</string>
+	<key>minNewPassword</key>
+	<string>Lösenordet måste ha minst 6 siffror</string>
+	<key>maxNewPassword</key>
+	<string>Vänligen ange maximalt 15 tecken nytt lösenord.</string>
+	<key>guide</key>
+	<string>Guide</string>
+	<key>traveler</key>
+	<string>Resande</string>
+	<key>language</key>
+	<string>Språk</string>
+	<key>bankAccount</key>
+	<string>Bankkonto</string>
+	<key>bankName</key>
+	<string>Banknamn</string>
+	<key>swiftBic</key>
+	<string>Swift Bic</string>
+	<key>iban</key>
+	<string>Iban</string>
+	<key>bankAddress</key>
+	<string>Bankadress</string>
+	<key>bankNameValidation</key>
+	<string>Vänligen ange banknamn.</string>
+	<key>bankAccountValidation</key>
+	<string>Vänligen ange bankkonto.</string>
+	<key>swiftBicValidation</key>
+	<string>Var god ange Swift Bic.</string>
+	<key>iBanValidation</key>
+	<string>Vänligen ange Iban.</string>
+	<key>descriptionPlaceholder</key>
+	<string>Här lägger du till din beskrivning av dig själv som en guide. Detta är mycket viktigt och en av de mest visade delarna av din profil. Så gör en bra presentation av dig själv, dina färdigheter och historia.</string>
+	<key>languageChangeMsg</key>
+	<string>Är du säker på att du vill ändra applikationsspråk?</string>
+	<key>searchLocation</key>
+	<string>Sök plats</string>
+	<key>SelectLocation</key>
+	<string>Välj plats</string>
+	<key>savedCards</key>
+	<string>Sparade kort</string>
+	<key>addCards</key>
+	<string>Lägg till kort</string>
+	<key>Pay</key>
+	<string>Betala</string>
+	<key>nextSetp</key>
+	<string>Nästa steg</string>
+	<key>card</key>
+	<string>Kort</string>
+	<key>name</key>
+	<string>namn</string>
+	<key>expiryDate</key>
+	<string>MM/YYYY</string>
+	<key>CVV</key>
+	<string>CVV</string>
+	<key>cardNumber</key>
+	<string>Kreditkortsnummer</string>
+	<key>nameOncard</key>
+	<string>Namn på kortet</string>
+	<key>add</key>
+	<string>Lägg till</string>
+	<key>addNewCard</key>
+	<string>Lägg till nytt kort</string>
+	<key>lblCardHolder</key>
+	<string>Namn på kortinnehavare</string>
+	<key>delete</key>
+	<string>Radera</string>
+	<key>deleteCardAlertMsg</key>
+	<string>Är du säker på att du vill radera kortet?</string>
+	<key>deleteCard.title</key>
+	<string>Radera kort</string>
+	<key>cardNumberValidation</key>
+	<string>Var god ange giltigt kortnummer</string>
+	<key>cardNameValidation</key>
+	<string>Var god ange kortinnehavarens namn</string>
+	<key>cardDateValidation</key>
+	<string>Var god ange ett giltigt utgångsdatum</string>
+	<key>cardExpiryValidation</key>
+	<string>Var god ange kortets utgångsdatum</string>
+	<key>cardCVVValidation</key>
+	<string>Var god ange kort cvv</string>
+	<key>checkOut</key>
+	<string>Checka ut</string>
+	<key>date</key>
+	<string>Datum</string>
+	<key>NumberOfGuest</key>
+	<string>Hur många gäster?</string>
+	<key>whichLanguage</key>
+	<string>Vilket språk?</string>
+	<key>creditCard</key>
+	<string>KREDITKORT</string>
+	<key>amount</key>
+	<string>BELOPP</string>
+	<key>groupBooking</key>
+	<string>gäst (gruppbokning)</string>
+	<key>bookAndPay</key>
+	<string>BOKA OCH BETALA</string>
+	<key>addNewExperience</key>
+	<string>Lägg till ny upplevelse</string>
+	<key>lblHintCamera</key>
+	<string>Genom att klicka på knappen &quot;+&quot; kan du ladda upp bild och video om din upplevelse.</string>
+	<key>experienceTitle</key>
+	<string>Upplevelsens namn</string>
+	<key>price</key>
+	<string>Pris</string>
+	<key>currency</key>
+	<string>Valuta</string>
+	<key>duration</key>
+	<string>Varaktighet</string>
+	<key>languages</key>
+	<string>språk</string>
+	<key>collections</key>
+	<string>Samling</string>
+	<key>meetingAddress</key>
+	<string>Mötesadress</string>
+	<key>postalZip</key>
+	<string>Postal / Zip</string>
+	<key>New item</key>
+	<string></string>
+	<key>addressReference</key>
+	<string>Adressreferens (Valfritt)</string>
+	<key>InstantExperience</key>
+	<string>Omedelbar Upplevelse</string>
+	<key>WheelchairAccessible</key>
+	<string>Rullstolsanpassad</string>
+	<key>FreeChildren</key>
+	<string>Gratis för barn</string>
+	<key>Restrictions</key>
+	<string>Ytterligare information</string>
+	<key>addSchedules</key>
+	<string>Lägg till scheman</string>
+	<key>newExperience</key>
+	<string>Ny upplevelse</string>
+	<key>updateExperience</key>
+	<string>Uppdatera Upplevelse</string>
+	<key>addExperienceAlert.msg</key>
+	<string>Är du säker på att du vill lämna skärmen eftersom alla ändringar kommer att kasseras?</string>
+	<key>newExperience.msg</key>
+	<string>Ny erfarenhet tillagd framgångsrikt.</string>
+	<key>Videos</key>
+	<string>Videor</string>
+	<key>selectMin2Pics</key>
+	<string>Det ska finnas minst 2 bilder för att lägga till upplevelse.</string>
+	<key>experienceTitleValidation</key>
+	<string>Vänligen ange giltig titel för erfarenhet.</string>
+	<key>currencyValidation</key>
+	<string>Var god välj giltig valuta</string>
+	<key>personPriceValidation</key>
+	<string>Var god ange ett giltigt pris</string>
+	<key>groupPriceValidation</key>
+	<string>Var god ange ett giltigt pris</string>
+	<key>descriptionValidation</key>
+	<string>Var god ange en giltig beskrivning.</string>
+	<key>durationValidation</key>
+	<string>Ogiltig varaktighet</string>
+	<key>effortValidation</key>
+	<string>Ogiltig ansträngning</string>
+	<key>minMaxGuest</key>
+	<string>Max antal gäster måste vara större än min gäst.</string>
+	<key>updateExperience.msg</key>
+	<string>Upplevelsen har uppdaterats.</string>
+	<key>langaugeValidation</key>
+	<string>Var god välj minst ett språk.</string>
+	<key>colletionValidation</key>
+	<string>Var god välj minst en samling.</string>
+	<key>locationValidation</key>
+	<string>Var god ange en giltig plats.</string>
+	<key>meetingAddressValidation</key>
+	<string>Var god ange giltig mötesplats.</string>
+	<key>postalValidation</key>
+	<string>Vänligen skriv in giltigt postnummer.</string>
+	<key>restrictionValidation</key>
+	<string>Var god ange upplevelsebegränsning.</string>
+	<key>scheduleValidation</key>
+	<string>Var god ange upplevelseschema.</string>
+	<key>Select</key>
+	<string>Välj</string>
+	<key>SearchCity</key>
+	<string>Välj Stad</string>
+	<key>SearchPrice</key>
+	<string>Välj Pris</string>
+	<key>SearchCurrency</key>
+	<string>Välj Valuta</string>
+	<key>SearchEffort</key>
+	<string>Välj ansträngning</string>
+	<key>SearchLangauge</key>
+	<string>Välj språk</string>
+	<key>SearchCollection</key>
+	<string>Väljsamling</string>
+	<key>SearchOccurence</key>
+	<string>Välj förekomst</string>
+	<key>SearchWeekDay</key>
+	<string>Välj veckodag</string>
+	<key>requestLocation</key>
+	<string>Begär plats</string>
+	<key>requestLocation.msg</key>
+	<string>Om du inte hittade din plats klickar du på länken ovan och lägger till en ny plats, när admin godkänner ny plats så kan du se den i listan nedan</string>
+	<key>howOften?</key>
+	<string>Hur ofta?</string>
+	<key>pickStartTime</key>
+	<string>Välj starttid</string>
+	<key>addSchedule</key>
+	<string>Lägg till schema</string>
+	<key>newSchedule</key>
+	<string>Nytt schema</string>
+	<key>SelectDate</key>
+	<string>Välj datum</string>
+	<key>PickDay</key>
+	<string>Välj dag</string>
+	<key>MinGuestNumber</key>
+	<string>Min Gäster Antal</string>
+	<key>MaxGuestNumber</key>
+	<string>Max antal gäster</string>
+	<key>effort</key>
+	<string>Insats</string>
+	<key>Done</key>
+	<string>Gjort</string>
+	<key>Soft</key>
+	<string>Mjuk</string>
+	<key>Moderate</key>
+	<string>Måttlig</string>
+	<key>Hard</key>
+	<string>Hård</string>
+	<key>Extreme</key>
+	<string>Extrem</string>
+	<key>Once</key>
+	<string>En gång</string>
+	<key>Daily</key>
+	<string>Dagligen</string>
+	<key>Weekly</key>
+	<string>Varje vecka</string>
+	<key>Weekdays</key>
+	<string>vardagar</string>
+	<key>Monthly</key>
+	<string>En gång i månaden</string>
+	<key>Monday</key>
+	<string>MÅN</string>
+	<key>Tuesday</key>
+	<string>TIS</string>
+	<key>Wednesday</key>
+	<string>ONS</string>
+	<key>Thursday</key>
+	<string>TOR</string>
+	<key>Friday</key>
+	<string>FRE</string>
+	<key>Saturday</key>
+	<string>LÖR</string>
+	<key>Sunday</key>
+	<string>SÖN</string>
+	<key>scheduleType</key>
+	<string>Var god välj typ av schema.</string>
+	<key>scheduleTime</key>
+	<string>Vänligen välj schemalagd tid.</string>
+	<key>scheduleDate</key>
+	<string>Vänligen välj schemaläggningsdatum.</string>
+	<key>scheduleWeekday</key>
+	<string>Var god välj schema vardagar.</string>
+	<key>scheduleDay</key>
+	<string>Var god välj giltig schemalagd dag.</string>
+	<key>mainImage</key>
+	<string>Huvudbild</string>
+	<key>newSchedule.msg</key>
+	<string>Är du säker på att du vill lämna eftersom alla data kommer att gå vilse?</string>
+	<key>ExperienceSchedule</key>
+	<string>Upplevelseschema</string>
+	<key>ExperienceSchedule.msg</key>
+	<string>Är du säker på att du vill radera detta schema?</string>
+	<key>enterData</key>
+	<string>var god ange data.</string>
+	<key>selectImage</key>
+	<string>vänligen välj bild.</string>
+	<key>selectCountry</key>
+	<string>välj land.</string>
+	<key>enterState</key>
+	<string>Vänligen ange stat</string>
+	<key>enterCity</key>
+	<string>Vänligen ange stad</string>
+	<key>LocationImage</key>
+	<string>Platsbild</string>
+	<key>LocationImage.msg</key>
+	<string>Välj platsbild från</string>
+	<key>Remove</key>
+	<string>Ta bort</string>
+	<key>SelectCoutry</key>
+	<string>Välj land</string>
+	<key>State</key>
+	<string>Stat</string>
+	<key>City</key>
+	<string>Stad</string>
+	<key>LocationRequest</key>
+	<string>Platsförfrågan</string>
+	<key>Approved</key>
+	<string>(Godkänd)</string>
+	<key>logout.msg</key>
+	<string>Är du säker på att du vill logga ut?</string>
+	<key>MyLive</key>
+	<string>Min Live</string>
+	<key>CancelTour</key>
+	<string>Avbryt tur</string>
+	<key>CancelTour.msg</key>
+	<string>Är du säker på att du vill avbryta denna turné?</string>
+	<key>cancellation.msg</key>
+	<string>Avbokningar måste göras inom 48 timmar enligt reglerna. Så om du fortsätter får du ingen återbetalning. Vill du fortsätta att avbryta denna bokning?</string>
+	<key>delete.msg</key>
+	<string>Är du säker att du vill radera?</string>
+	<key>fullSchedule</key>
+	<string>FULL  SCHEMA</string>
+	<key>YourTours</key>
+	<string>Dina turer</string>
+	<key>UpcomingExperiences</key>
+	<string>Kommande upplevelser</string>
+	<key>Wishlist</key>
+	<string>Önskelista</string>
+	<key>LivedExperiences</key>
+	<string>Levda Upplevelser</string>
+	<key>UpcomingExperiences.msg</key>
+	<string>Erfarenheter i din önskelista</string>
+	<key>LivedExperiences.msg</key>
+	<string>Dina levda erfarenheter</string>
+	<key>AddNewExperiences</key>
+	<string>LÄGG TILL NYA ERFARENHETER
+</string>
+	<key>onlyInstant</key>
+	<string>Endast direktupplevelser</string>
+	<key>EditName</key>
+	<string>Redigera namn</string>
+	<key>UpToHowMuch?</key>
+	<string>Upp till hur mycket?</string>
+	<key>apply</key>
+	<string>Applicera</string>
+	<key>Clear</key>
+	<string>Klar</string>
+	<key>findBestExperience</key>
+	<string>Hitta de bästa upplevelserna</string>
+	<key>Success</key>
+	<string>Lyckades</string>
+	<key>offeredExperiences</key>
+	<string>Erbjudna erfarenheter</string>
+	<key>offeredExperiences.msg</key>
+	<string>Erfarenheter från</string>
+	<key>Pending</key>
+	<string>Väntande</string>
+	<key>Calendar</key>
+	<string>Kalender</string>
+	<key>Upcoming</key>
+	<string>Kommande</string>
+	<key>Approved.title</key>
+	<string>Godkänd</string>
+	<key>History</key>
+	<string>Historia</string>
+	<key>people</key>
+	<string>människor</string>
+	<key>Schedule</key>
+	<string>Schema</string>
+	<key>Chat</key>
+	<string>Chatt</string>
+	<key>Chat.msg</key>
+	<string>Samtalet finns redan med den här upplevelsen</string>
+	<key>noData</key>
+	<string>Ingen information hittad</string>
+	<key>OTHER</key>
+	<string>Annat Kommande</string>
+	<key>UPCOMING</key>
+	<string>KOMMANDE</string>
+	<key>SelectExperience</key>
+	<string>Välj Upplevelse</string>
+	<key>EnterMessage</key>
+	<string> Ange meddelande</string>
+	<key>travellerForChat</key>
+	<string>(Resande)</string>
+	<key>guideForChat</key>
+	<string>(Guide)</string>
+	<key>sendBtn</key>
+	<string>Skicka</string>
+	<key>share.text1</key>
+	<string>med oss!</string>
+	<key>share.text2</key>
+	<string>Upplevelse:</string>
+	<key>commonError</key>
+	<string>Något gick fel.</string>
+	<key>NoInternet</key>
+	<string>Kontrollera din anslutning och försök igen.</string>
+	<key>NoInternetPage.text1</key>
+	<string>Ingen internetuppkoppling tillgänglig</string>
+	<key>NoInternetPage.text2</key>
+	<string>Något gick fel, kolla med din anslutning .....</string>
+	<key>Retry</key>
+	<string>Försök igen</string>
+	<key>GUIDE</key>
+	<string>GUIDE</string>
+	<key>TRAVELER</key>
+	<string>RESENÄR</string>
+	<key>review.title</key>
+	<string>Recension</string>
+	<key>review.hint</key>
+	<string>Ange recension här ...</string>
+	<key>submit</key>
+	<string>Lämmna in</string>
+	<key>CANCEL</key>
+	<string>ANNULLERA</string>
+	<key>confirmed</key>
+	<string>bekräftade</string>
+	<key>pending</key>
+	<string>avvaktan</string>
+	<key>Activate</key>
+	<string>Aktivera</string>
+	<key>Deactivate</key>
+	<string>Avaktivera</string>
+	<key>ActivateTour</key>
+	<string>Aktiv / Inaktiv</string>
+	<key>Activate.msg1</key>
+	<string>Är du säker på att du vill aktivera</string>
+	<key>Activate.msg2</key>
+	<string>Det kommer nu att vara synligt för andra resenärer efter aktiveringen</string>
+	<key>DeActivate.msg1</key>
+	<string>Är du säker på att du vill avaktivera</string>
+	<key>DeActivate.msg2</key>
+	<string>Det kommer inte längre att synas för andra resenärer efter deaktiveringen</string>
+	<key>ExperienceDeleted</key>
+	<string>Erfarenhet raderad</string>
+	<key>ContactUs</key>
+	<string>Kontakta oss</string>
+	<key>Active</key>
+	<string>Aktiva</string>
+	<key>InActive</key>
+	<string>Inaktiv</string>
+	<key>pleaseEnterBankAddress.</key>
+	<string>Var god ange bankadress.</string>
+	<key>pleaseEnterIban.</key>
+	<string>Vänligen ange Iban.</string>
+	<key>pleaseEnterSwiftBic.</key>
+	<string>Var god ange Swift Bic.</string>
+	<key>pleaseEnterBankAccount.</key>
+	<string>Vänligen ange bankkonto.</string>
+	<key>pleaseEnterBankName.</key>
+	<string>Vänligen ange banknamn.</string>
+	<key>CalculatingDistance</key>
+	<string>Beräkna avstånd...</string>
+	<key>Anonymous</key>
+	<string>Anonym</string>
+	<key>SearchHere</key>
+	<string>Sök här...</string>
+	<key>HowOften</key>
+	<string>Hur ofta?</string>
+	<key>login_request_message_chat</key>
+	<string>Vänligen logga in för att använda chatt.</string>
+	<key>login_request_message_mylive</key>
+	<string>Vänligen logga in för att hantera dina erfarenheter.</string>
+	<key>SEND</key>
+	<string>SKICKA</string>
+	<key>OTHERS UPCOMING</key>
+	<string>ANDRA KOMMANDE</string>
+	<key>showcaseLocation</key>
+	<string>Tryck för att utforska turer i andra länder</string>
+	<key>guideRequest.title</key>
+	<string>Guide Begäran</string>
+	<key>Experience.title</key>
+	<string>Erfarenhet</string>
+	<key>NoData.chat</key>
+	<string>Ingen information hittad</string>
+	<key>guideRequest.Message</key>
+	<string>För att accepteras som en guide måste du vara en certifierad guide. Denna certifieringen måste lämnas på begäran. Jag förstår, Jag är en kvalificerad turistguide.
+.</string>
+	<key>channelAlreadyDeleted</key>
+	<string>Den här kanalen har redan raderats</string>
+	<key>Country</key>
+	<string>Land</string>
+	<key>deleteConfirmation</key>
+	<string>Är du säker på att du vill radera den här chatthistoriken?</string>
+	<key>AddBadge.hint</key>
+	<string>Lägg till märke</string>
+	<key>ProfileImageValidation</key>
+	<string>Vänligen ladda upp profilbilden.</string>
+	<key>BadgeImageValidation</key>
+	<string>Var god ladda upp badgebild.</string>
+	<key>guideRequest.Success</key>
+	<string>Din guideringsförfrågan skickades successfully.once den godkänd av admin kommer du att meddela via e-post.</string>
+	<key>ChangeBadge.hint</key>
+	<string>Ändra märke</string>
+	<key>block.hint</key>
+	<string>Blockera</string>
+	<key>blockMSG.hint</key>
+	<string>Du är tillfälligt blockerad så att du inte kan logga in. Vänligen kontakta administratören!</string>
+	<key>err_recovery</key>
+	<string>Vänligen ange återställningskod.</string>
+	<key>userType</key>
+	<string>Användartyp
+</string>
+	<key>inquiry</key>
+	<string>Förfrågan</string>
+	<key>selectUserType</key>
+	<string>Vänligen välj Användartyp
+</string>
+	<key>dearAll</key>
+	<string>&quot;Kära resenärer, om det önskade landet inte finns på listan, har vi ännu inte kunnat expandera till det här landet. Du borde dock veta att det är vår största avsikt att expandera till alla territorier så snart vi kan. Om du lämnar din e-postadress genom att klicka på länken nedan kommer vi att skicka information om våra framsteg.&quot; </string>
+	<key>click_here</key>
+	<string>Klicka här!</string>
+	<key>History.noData</key>
+	<string>Det finns ingen historia</string>
+	<key>SearchHint</key>
+	<string>Sök</string>
+	<key>QualifiedGuideRequest</key>
+	<string>Kvalificerad vägbegäran</string>
+	<key>NoPriceValidation</key>
+	<string>Vänligen fyll i åtminstone en prissättningsmetod</string>
+	<key>Remove.Hint</key>
+	<string>Avlägsna</string>
+	<key>Update</key>
+	<string>uppdatering</string>
+	<key>Description.noData</key>
+	<string>Vänligen ange beskrivning</string>
+	<key>Pending.status</key>
+	<string>(Avvaktan)</string>
+	<key>locationCity</key>
+	<string>Vi måste komma åt din plats för att ge dig bättre erfarenhet.</string>
+	<key>locationCityAllow</key>
+	<string>Visst skulle jag vilja</string>
+	<key>locationCityDontAllow</key>
+	<string>Inte tillåta</string>
+	<key>NoSearchResult</key>
+	<string>Tyvärr, den sökningen gav inget!</string>
+	<key>EnableLocatioFromSetting</key>
+	<string>Vänligen aktivera platstjänster från inställningar.</string>
+	<key>LocationDisable</key>
+	<string>Platser Inaktivera</string>
+	<key>Allow</key>
+	<string>Tillåta</string>
+	<key>understandAlertBtn</key>
+	<string>Ja jag förstår</string>
+	<key>CountryOptional</key>
+	<string>Vilket land är du i?</string>
+	<key>LocationOptional</key>
+	<string>Vilken stad är du i?</string>
+	<key>guideRequest.message</key>
+	<string>Jag har en certifiering för att använda den här appen som en guide.</string>
+	<key>agreeBtn</key>
+	<string>Ja jag håller med</string>
+	<key>accept_tour_message</key>
+	<string>Är du säker på att du vill bekräfta denna turné?</string>
+	<key>acceptTour_title</key>
+	<string>Godkänn Tour</string>
+	<key>haveCC</key>
+	<string>Har du en kupongkod?</string>
+	<key>couponcode.hint</key>
+	<string>kupongskod</string>
+	<key>days.hint</key>
+	<string>dagar</string>
+	<key>hours.hint</key>
+	<string>timmar</string>
+	<key>minutes.hint</key>
+	<string>minuter</string>
+	<key>seconds.hint</key>
+	<string>sekunder</string>
+	<key>expired.hint</key>
+	<string>Utgånget</string>
+	<key>noCouponCode.hint</key>
+	<string>Du har ingen kupongkod.</string>
+	<key>searchCouponCode.hint</key>
+	<string>Sök kupongkod</string>
+	<key>usercc.hint</key>
+	<string>sig av</string>
+	<key>or.hint</key>
+	<string>ELLER</string>
+	<key>Filter</key>
+	<string>Filter</string>
+	<key>pasttime.hint</key>
+	<string>Den tid du har valt är godkänd, välj önskad tid</string>
+	<key>share.hint</key>
+	<string>Dela med sig</string>
+	<key>sharetext.hint</key>
+	<string>vill du dela med dig av att använda LIVE-appen till dina vänner på sociala medier?</string>
+	<key>shareBodyAfterDay.hint</key>
+	<string>har haft Live app</string>
+	<key>directsharefirst.hint</key>
+	<string>Vill du dela med dig av din färdiga turnéupplevelse av</string>
+	<key>directsharesecond.hint</key>
+	<string>med dina vänner?</string>
+	<key>directsharebody.hint</key>
+	<string>har haft en upplevelse med Live</string>
+	<key>shareReview.hint</key>
+	<string>Vill du dela med dig av dina recensioner till dina vänner?</string>
+	<key>sendInformation.hint</key>
+	<string>Skicka mig information</string>
+	<key>gotIt.hint</key>
+	<string>Jag fattar!</string>
+	<key>provision.hint</key>
+	<string>Tillhandahållande</string>
+	<key>enter.hint</key>
+	<string>Stiga på</string>
+	<key>detail.hint</key>
+	<string>detaljer</string>
+	<key>options.hint</key>
+	<string>alternativ</string>
+	<key>passwordRicovery.hint</key>
+	<string>Återställning av lösenord</string>
+	<key>passwordRicoveryMSG.hint</key>
+	<string>En användare med den här e-postadressen finns redan, vänligen tryck på Password Recovery för att återställa ditt lösenord eller prova en annan e-postadress</string>
+	<key>stripe.hint</key>
+	<string>Rand</string>
+	<key>paypal.hint</key>
+	<string>PayPal</string>
+	<key>recover.hint</key>
+	<string>Ta igen sig</string>
+	<key>forExistingCustomer.hint</key>
+	<string>För befintlig kund</string>
+	<key>registerAsTraveler.hint</key>
+	<string>Registrera dig som resenär</string>
+	<key>registerAsGuide.hint</key>
+	<string>Registrera dig som turistguide</string>
+	<key>autoSaveExperience.hint</key>
+	<string>Vill du spara ändringar innan du lämnar?</string>
+	<key>leave.hint</key>
+	<string>Lämna</string>
+	<key>updateprofilePic.hint</key>
+	<string>Uppdatera profilbilden</string>
+	<key>takePhoto.hint</key>
+	<string>Ta ett foto</string>
+	<key>deletePhoto.hint</key>
+	<string>Ta bort foto</string>
+	<key>mguide.hint</key>
+	<string>Jag är en guide</string>
+	<key>mtraveler.hint</key>
+	<string>Jag är en resenär</string>
+	<key>deleteExperenice</key>
+	<string>Vill du verkligen radera denna erfarenhet?</string>
+	<key>CancelExperiences.title</key>
+	<string>Avbryt Erfarenheter</string>
+	<key>PleaseLogIn.hint</key>
+	<string>Vänligen logga in för att hantera din upplevelse</string>
+	<key>sendReview.title</key>
+	<string>Skicka recension</string>
+	<key>selectAsCover.hint</key>
+	<string>Välj som omslag</string>
+	<key>maxfilter.hint</key>
+	<string>Maximalt pris för hela turnén</string>
+    <key>PleaseLogIn.Chathint</key>
+    <string>Vänligen logga in för att hantera dina chattar</string>
+</dict>
+</plist>

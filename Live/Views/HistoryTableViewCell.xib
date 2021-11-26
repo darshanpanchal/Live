@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Roman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HistoryTableViewCell" customModule="Live" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HistoryTableViewCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="499" height="94"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cs6-hV-nCr" customClass="ShadowView" customModule="Live" customModuleProvider="target">
+                    <rect key="frame" x="50" y="5" width="429" height="84"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5J-R4-hmq">
+                    <rect key="frame" x="50" y="5" width="429" height="84"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1T-0S-faF">
+                            <rect key="frame" x="17" y="10" width="392" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="7gj-X9-Jdy"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDQ-tQ-F5a">
+                            <rect key="frame" x="17" y="35" width="389" height="40"/>
+                            <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="dDQ-tQ-F5a" secondAttribute="bottom" constant="9" id="1br-Vq-x8w"/>
+                        <constraint firstItem="dDQ-tQ-F5a" firstAttribute="top" secondItem="U1T-0S-faF" secondAttribute="bottom" constant="5" id="3Hv-oB-vn6"/>
+                        <constraint firstItem="U1T-0S-faF" firstAttribute="top" secondItem="S5J-R4-hmq" secondAttribute="top" constant="10" id="3e3-RV-jZz"/>
+                        <constraint firstAttribute="trailing" secondItem="dDQ-tQ-F5a" secondAttribute="trailing" constant="23" id="Kch-qS-c84"/>
+                        <constraint firstItem="U1T-0S-faF" firstAttribute="leading" secondItem="S5J-R4-hmq" secondAttribute="leading" constant="17" id="cht-3y-TZ4"/>
+                        <constraint firstItem="dDQ-tQ-F5a" firstAttribute="leading" secondItem="S5J-R4-hmq" secondAttribute="leading" constant="17" id="gIg-en-E7d"/>
+                        <constraint firstAttribute="trailing" secondItem="U1T-0S-faF" secondAttribute="trailing" constant="20" id="sZl-DX-ysg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqe-lh-Eaq">
+                    <rect key="frame" x="24" y="0.0" width="1" height="34"/>
+                    <color key="backgroundColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="JaY-qy-aRu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BLr-xi-B69">
+                    <rect key="frame" x="20" y="42" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.16078431369999999" green="0.38823529410000002" blue="0.68627450980000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="Jvu-a3-oaF"/>
+                        <constraint firstAttribute="height" constant="10" id="uOD-30-CZC"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wob-id-dsa">
+                    <rect key="frame" x="24.5" y="60" width="1" height="34"/>
+                    <color key="backgroundColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="oRh-cT-3xD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Wob-id-dsa" firstAttribute="centerX" secondItem="BLr-xi-B69" secondAttribute="centerX" id="0cU-oK-7f3"/>
+                <constraint firstAttribute="bottom" secondItem="Wob-id-dsa" secondAttribute="bottom" id="4Ri-WF-HSQ"/>
+                <constraint firstItem="Cs6-hV-nCr" firstAttribute="width" secondItem="S5J-R4-hmq" secondAttribute="width" id="6iQ-kc-fq9"/>
+                <constraint firstItem="Cs6-hV-nCr" firstAttribute="centerX" secondItem="S5J-R4-hmq" secondAttribute="centerX" id="7bH-Sz-I7N"/>
+                <constraint firstItem="Cs6-hV-nCr" firstAttribute="centerY" secondItem="S5J-R4-hmq" secondAttribute="centerY" id="AOy-hx-e8o"/>
+                <constraint firstItem="Cs6-hV-nCr" firstAttribute="height" secondItem="S5J-R4-hmq" secondAttribute="height" id="Jsr-V5-9vB"/>
+                <constraint firstItem="BLr-xi-B69" firstAttribute="top" secondItem="fqe-lh-Eaq" secondAttribute="bottom" constant="8" id="LzF-Z7-Lvz"/>
+                <constraint firstItem="fqe-lh-Eaq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="M4b-8g-KIf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="S5J-R4-hmq" secondAttribute="trailing" constant="20" id="Qbm-QS-JOH"/>
+                <constraint firstItem="S5J-R4-hmq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="50" id="Snh-MI-teW"/>
+                <constraint firstItem="S5J-R4-hmq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="Ulc-w4-l69"/>
+                <constraint firstItem="BLr-xi-B69" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="YUd-y0-vwM"/>
+                <constraint firstItem="Wob-id-dsa" firstAttribute="top" secondItem="BLr-xi-B69" secondAttribute="bottom" constant="8" id="gay-rG-GEP"/>
+                <constraint firstItem="fqe-lh-Eaq" firstAttribute="centerX" secondItem="BLr-xi-B69" secondAttribute="centerX" id="k71-jz-Hrg"/>
+                <constraint firstItem="BLr-xi-B69" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="mUS-4N-QJ0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="S5J-R4-hmq" secondAttribute="bottom" constant="5" id="oHw-Nb-vme"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bottomView" destination="Wob-id-dsa" id="BEO-84-3ai"/>
+                <outlet property="containerView" destination="S5J-R4-hmq" id="v0r-yy-S8H"/>
+                <outlet property="lblDate" destination="U1T-0S-faF" id="gaT-DN-INg"/>
+                <outlet property="lblHistoryDetail" destination="dDQ-tQ-F5a" id="0b4-aa-wHT"/>
+                <outlet property="shadowView" destination="Cs6-hV-nCr" id="XuI-nF-ic2"/>
+                <outlet property="timelineView" destination="BLr-xi-B69" id="N1B-cf-ReO"/>
+                <outlet property="topLineView" destination="fqe-lh-Eaq" id="ccw-BA-kUm"/>
+                <outlet property="topSpaceConstraint" destination="Ulc-w4-l69" id="7Va-xy-SZg"/>
+            </connections>
+            <point key="canvasLocation" x="-11.5" y="-199.5"/>
+        </view>
+    </objects>
+</document>

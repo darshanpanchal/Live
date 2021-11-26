@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ExperienceCollectionViewCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="297"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="297"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGk-LK-oHt">
+                        <rect key="frame" x="0.0" y="0.0" width="253" height="297"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fla-9e-PQA" customClass="ImageViewForURL" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="-0.5" y="0.0" width="253" height="193"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Backingham Palace Tour Including Changing of the Guard Ceremony" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7pu-QD-3cl">
+                                <rect key="frame" x="20" y="208" width="213" height="52"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Kt-qJ-StD">
+                                <rect key="frame" x="0.0" y="260" width="253" height="37"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdw-NH-dV1">
+                                        <rect key="frame" x="-0.5" y="0.0" width="253" height="0.5"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="VPx-Ja-XhW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="$100" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8bA-xN-nhT">
+                                        <rect key="frame" x="20" y="9.5" width="33.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vPe-fM-IaD" customClass="FloatRatingView" customModule="Live" customModuleProvider="target">
+                                        <rect key="frame" x="126.5" y="7.5" width="126.5" height="22.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="editable" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_grey"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="star"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vPe-fM-IaD" firstAttribute="centerY" secondItem="8Kt-qJ-StD" secondAttribute="centerY" id="1ok-Y5-EOk"/>
+                                    <constraint firstItem="kdw-NH-dV1" firstAttribute="width" secondItem="8Kt-qJ-StD" secondAttribute="width" id="Kc1-u3-KD3"/>
+                                    <constraint firstItem="kdw-NH-dV1" firstAttribute="top" secondItem="8Kt-qJ-StD" secondAttribute="top" id="M5y-Nr-T0K"/>
+                                    <constraint firstItem="8bA-xN-nhT" firstAttribute="leading" secondItem="8Kt-qJ-StD" secondAttribute="leading" constant="20" id="ZXe-Ao-uwP"/>
+                                    <constraint firstItem="vPe-fM-IaD" firstAttribute="width" secondItem="8Kt-qJ-StD" secondAttribute="width" multiplier="0.5" id="cZE-EV-osP"/>
+                                    <constraint firstItem="vPe-fM-IaD" firstAttribute="height" secondItem="8Kt-qJ-StD" secondAttribute="height" multiplier="0.6" id="hbG-DN-BBn"/>
+                                    <constraint firstItem="8bA-xN-nhT" firstAttribute="centerY" secondItem="8Kt-qJ-StD" secondAttribute="centerY" id="jKG-xv-H3L"/>
+                                    <constraint firstAttribute="trailing" secondItem="vPe-fM-IaD" secondAttribute="trailing" id="n1K-OY-ymn"/>
+                                    <constraint firstItem="kdw-NH-dV1" firstAttribute="centerX" secondItem="8Kt-qJ-StD" secondAttribute="centerX" id="rle-tp-quy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Kt-qJ-StD" firstAttribute="leading" secondItem="XGk-LK-oHt" secondAttribute="leading" id="4Ma-lm-imE"/>
+                            <constraint firstItem="Fla-9e-PQA" firstAttribute="height" secondItem="XGk-LK-oHt" secondAttribute="height" multiplier="0.65" id="9W5-9h-rV6"/>
+                            <constraint firstItem="Fla-9e-PQA" firstAttribute="width" secondItem="XGk-LK-oHt" secondAttribute="width" id="BWu-l7-i0z"/>
+                            <constraint firstItem="7pu-QD-3cl" firstAttribute="top" secondItem="Fla-9e-PQA" secondAttribute="bottom" constant="15" id="N9e-7i-Jjs"/>
+                            <constraint firstItem="Fla-9e-PQA" firstAttribute="centerX" secondItem="XGk-LK-oHt" secondAttribute="centerX" id="NdG-Hp-L0D"/>
+                            <constraint firstAttribute="bottom" secondItem="8Kt-qJ-StD" secondAttribute="bottom" id="Q1u-nS-cbn"/>
+                            <constraint firstAttribute="trailing" secondItem="8Kt-qJ-StD" secondAttribute="trailing" id="UEi-34-YGq"/>
+                            <constraint firstItem="Fla-9e-PQA" firstAttribute="top" secondItem="XGk-LK-oHt" secondAttribute="top" id="bkm-mu-hSH"/>
+                            <constraint firstItem="7pu-QD-3cl" firstAttribute="leading" secondItem="XGk-LK-oHt" secondAttribute="leading" constant="20" id="o51-x3-Aqh"/>
+                            <constraint firstItem="8Kt-qJ-StD" firstAttribute="top" secondItem="7pu-QD-3cl" secondAttribute="bottom" id="oFZ-d8-VPc"/>
+                            <constraint firstAttribute="trailing" secondItem="7pu-QD-3cl" secondAttribute="trailing" constant="20" id="wR4-15-vSQ"/>
+                            <constraint firstItem="8Kt-qJ-StD" firstAttribute="height" secondItem="XGk-LK-oHt" secondAttribute="height" multiplier="50/400" id="weJ-lC-3UU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="XGk-LK-oHt" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="dOB-Ic-4zr"/>
+                <constraint firstItem="XGk-LK-oHt" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="fsP-3Z-TGc"/>
+                <constraint firstItem="XGk-LK-oHt" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="iDU-SE-fuD"/>
+                <constraint firstItem="XGk-LK-oHt" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="nfn-yS-1v2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="253" height="297"/>
+            <connections>
+                <outlet property="imgExperience" destination="Fla-9e-PQA" id="s6K-FY-zIu"/>
+                <outlet property="lblExperienceCurrency" destination="8bA-xN-nhT" id="K8w-OO-AbH"/>
+                <outlet property="lblExperienceDisc" destination="7pu-QD-3cl" id="nZL-Sp-Num"/>
+                <outlet property="ratingView" destination="vPe-fM-IaD" id="9gQ-cg-kMb"/>
+            </connections>
+            <point key="canvasLocation" x="-60.5" y="-97.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="32" height="30"/>
+        <image name="star_grey" width="32" height="30"/>
+    </resources>
+</document>

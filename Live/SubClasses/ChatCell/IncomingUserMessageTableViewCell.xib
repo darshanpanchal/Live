@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Roman</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="KGk-i7-Jjw" customClass="IncomingUserMessageTableViewCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="290"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="289.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="etk-pH-YdC" userLabel="Date Seperator View">
+                        <rect key="frame" x="0.0" y="0.0" width="349" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sept 21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="te8-sc-Jve" userLabel="Date Label">
+                                <rect key="frame" x="134" y="0.0" width="43" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <color key="textColor" red="0.53725490196078429" green="0.53725490196078429" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="te8-sc-Jve" secondAttribute="bottom" constant="3" id="hba-Pu-Twq"/>
+                            <constraint firstItem="te8-sc-Jve" firstAttribute="top" secondItem="etk-pH-YdC" secondAttribute="top" id="kcY-NH-dpb"/>
+                            <constraint firstAttribute="height" constant="40" id="lFp-Fb-0uI" userLabel="Date Seperator View Height"/>
+                            <constraint firstItem="te8-sc-Jve" firstAttribute="centerX" secondItem="etk-pH-YdC" secondAttribute="centerX" id="pDX-Ha-OE3"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bix-Ji-1A2">
+                        <rect key="frame" x="62" y="42" width="38" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="Sqv-Kb-wma"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="expriencePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="K2x-Fx-ABT" customClass="ImageViewForURL" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="12" y="211" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Dew-pn-3yk"/>
+                            <constraint firstAttribute="width" constant="40" id="iYM-bA-G4r"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_profile" translatesAutoresizingMaskIntoConstraints="NO" id="rQm-22-hdZ" userLabel="Profile Image View" customClass="ImageViewForURL" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="14" y="25" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Yac-Eq-V6D"/>
+                            <constraint firstAttribute="width" constant="40" id="kRv-69-ZJQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJH-aN-mCH">
+                        <rect key="frame" x="62" y="221.5" width="20" height="23"/>
+                        <color key="backgroundColor" red="0.792156862745098" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="4jC-In-ICf"/>
+                            <constraint firstAttribute="height" constant="23" id="Ygp-v7-wOc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="3.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uXW-rK-eho" userLabel="Message Container View">
+                        <rect key="frame" x="62" y="63" width="152" height="175"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh6-y1-hH1" userLabel="Message Label" customClass="TTTAttributedLabel">
+                                <rect key="frame" x="10" y="10" width="132" height="165"/>
+                                <color key="backgroundColor" red="0.792156862745098" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.792156862745098" green="0.7803921568627451" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="sh6-y1-hH1" firstAttribute="leading" secondItem="uXW-rK-eho" secondAttribute="leading" constant="10" id="QOW-3C-7S8"/>
+                            <constraint firstAttribute="bottom" secondItem="sh6-y1-hH1" secondAttribute="bottom" constant="7" id="Sjy-yz-TB8"/>
+                            <constraint firstAttribute="trailing" secondItem="sh6-y1-hH1" secondAttribute="trailing" constant="10" id="TGP-2O-NAk"/>
+                            <constraint firstItem="sh6-y1-hH1" firstAttribute="top" secondItem="uXW-rK-eho" secondAttribute="top" constant="10" id="dXr-Br-Rbw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="13"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="99:99 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="da1-hz-pe6" userLabel="Message Date Label">
+                        <rect key="frame" x="222" y="256.5" width="74" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="74" id="HP9-vC-J3e"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bix-Ji-1A2" firstAttribute="top" secondItem="etk-pH-YdC" secondAttribute="bottom" constant="2" id="22l-aR-u1M"/>
+                    <constraint firstItem="Bix-Ji-1A2" firstAttribute="leading" secondItem="rQm-22-hdZ" secondAttribute="trailing" constant="8" id="3OO-x5-PaL"/>
+                    <constraint firstItem="etk-pH-YdC" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5rk-Ve-eXf"/>
+                    <constraint firstItem="K2x-Fx-ABT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="GiT-uB-VJh"/>
+                    <constraint firstItem="QJH-aN-mCH" firstAttribute="leading" secondItem="K2x-Fx-ABT" secondAttribute="trailing" constant="10" id="LC0-Mk-qHw"/>
+                    <constraint firstAttribute="bottom" secondItem="rQm-22-hdZ" secondAttribute="bottom" constant="179.5" id="NUt-09-Yy5"/>
+                    <constraint firstItem="da1-hz-pe6" firstAttribute="leading" secondItem="uXW-rK-eho" secondAttribute="trailing" constant="8" id="Q8J-hr-Apx"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="da1-hz-pe6" secondAttribute="trailing" constant="24" id="WA7-oh-scj"/>
+                    <constraint firstAttribute="trailing" secondItem="etk-pH-YdC" secondAttribute="trailing" id="X26-Op-hii"/>
+                    <constraint firstItem="etk-pH-YdC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Y5E-PX-4j6"/>
+                    <constraint firstItem="K2x-Fx-ABT" firstAttribute="top" secondItem="rQm-22-hdZ" secondAttribute="bottom" constant="146" id="Z7W-gp-LF3"/>
+                    <constraint firstItem="sh6-y1-hH1" firstAttribute="leading" secondItem="K2x-Fx-ABT" secondAttribute="trailing" constant="20" id="aTc-GF-78l"/>
+                    <constraint firstItem="da1-hz-pe6" firstAttribute="bottom" secondItem="uXW-rK-eho" secondAttribute="bottom" id="aTe-sb-SmZ"/>
+                    <constraint firstItem="uXW-rK-eho" firstAttribute="leading" secondItem="rQm-22-hdZ" secondAttribute="trailing" constant="8" id="aU7-lV-qKd"/>
+                    <constraint firstAttribute="bottom" secondItem="K2x-Fx-ABT" secondAttribute="bottom" constant="-6.5" id="c5H-fv-X3y"/>
+                    <constraint firstAttribute="bottom" secondItem="QJH-aN-mCH" secondAttribute="bottom" id="gLH-3S-WbD"/>
+                    <constraint firstItem="rQm-22-hdZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="niF-WR-zOW"/>
+                    <constraint firstItem="rQm-22-hdZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="pQ5-Zs-iF2"/>
+                    <constraint firstItem="etk-pH-YdC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rsH-1F-YJd"/>
+                    <constraint firstItem="uXW-rK-eho" firstAttribute="top" secondItem="Bix-Ji-1A2" secondAttribute="bottom" id="wcK-Wg-JtW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateSeperatorLabel" destination="te8-sc-Jve" id="iss-MS-aSt"/>
+                <outlet property="dateSeperatorView" destination="etk-pH-YdC" id="wdP-7g-OqW"/>
+                <outlet property="dateSeperatorViewBottomMargin" destination="22l-aR-u1M" id="mhF-LD-EPr"/>
+                <outlet property="dateSeperatorViewHeight" destination="lFp-Fb-0uI" id="feF-tH-VXr"/>
+                <outlet property="dateSeperatorViewTopMargin" destination="Y5E-PX-4j6" id="4KV-Dk-RF7"/>
+                <outlet property="messageContainerBottomPadding" destination="Sjy-yz-TB8" id="sJR-rh-nWQ"/>
+                <outlet property="messageContainerLeftMargin" destination="aU7-lV-qKd" id="Vjy-a2-VH3"/>
+                <outlet property="messageContainerLeftPadding" destination="QOW-3C-7S8" id="xTV-fd-pyd"/>
+                <outlet property="messageContainerRightPadding" destination="TGP-2O-NAk" id="emQ-BQ-1ty"/>
+                <outlet property="messageContainerTopPadding" destination="dXr-Br-Rbw" id="BK8-vm-6Gy"/>
+                <outlet property="messageContainerView" destination="uXW-rK-eho" id="ppY-cP-Pzq"/>
+                <outlet property="messageDateLabel" destination="da1-hz-pe6" id="cxy-tm-dl2"/>
+                <outlet property="messageDateLabelLeftMargin" destination="Q8J-hr-Apx" id="Bav-Op-dlD"/>
+                <outlet property="messageDateLabelRightMargin" destination="WA7-oh-scj" id="805-fY-Dfl"/>
+                <outlet property="messageDateLabelWidth" destination="HP9-vC-J3e" id="gbM-uE-89t"/>
+                <outlet property="messageLabel" destination="sh6-y1-hH1" id="t0r-cV-RXN"/>
+                <outlet property="nameLabel" destination="Bix-Ji-1A2" id="Z38-Di-FKr"/>
+                <outlet property="profileImageLeftMargin" destination="niF-WR-zOW" id="LpS-Ur-XJ4"/>
+                <outlet property="profileImageView" destination="K2x-Fx-ABT" id="tJn-JB-o37"/>
+                <outlet property="profileImageWidth" destination="Yac-Eq-V6D" id="Q0y-xD-xgj"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="152"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="expriencePlaceholder" width="166" height="150"/>
+        <image name="img_profile" width="58" height="58"/>
+    </resources>
+</document>

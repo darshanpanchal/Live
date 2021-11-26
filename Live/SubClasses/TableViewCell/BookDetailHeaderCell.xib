@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Medium</string>
+            <string>Avenir-Roman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="258" id="KGk-i7-Jjw" customClass="BookDetailHeaderCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="269.66666666666669"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdS-tz-hkC">
+                        <rect key="frame" x="-0.66666666666665719" y="-1" width="375.33333333333326" height="270"/>
+                        <connections>
+                            <action selector="buttonFullScreenSelectorWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SPd-No-xGx"/>
+                        </connections>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_fullscreen" translatesAutoresizingMaskIntoConstraints="NO" id="xXN-7y-wGs">
+                        <rect key="frame" x="162.66666666666666" y="110.66666666666669" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="XeZ-VI-DlX"/>
+                            <constraint firstAttribute="width" constant="50" id="aFI-KF-erU"/>
+                        </constraints>
+                    </imageView>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="py8-9S-KzE">
+                        <rect key="frame" x="0.0" y="-45" width="375" height="315"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-YE-H12">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="269.66666666666669"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="h7z-YE-H12" firstAttribute="top" secondItem="py8-9S-KzE" secondAttribute="top" id="H2z-K9-XO4"/>
+                            <constraint firstAttribute="trailing" secondItem="h7z-YE-H12" secondAttribute="trailing" id="Iqn-xq-KbM"/>
+                            <constraint firstItem="h7z-YE-H12" firstAttribute="width" secondItem="py8-9S-KzE" secondAttribute="width" id="eJi-FR-aDy"/>
+                            <constraint firstAttribute="width" secondItem="py8-9S-KzE" secondAttribute="height" multiplier="25:18" constant="-62.5" id="mLL-al-y5u"/>
+                            <constraint firstAttribute="bottom" secondItem="h7z-YE-H12" secondAttribute="bottom" constant="45.333333333333314" id="mR8-hg-E0n"/>
+                            <constraint firstItem="h7z-YE-H12" firstAttribute="leading" secondItem="py8-9S-KzE" secondAttribute="leading" id="wvO-Ai-XfS"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="deU-bR-kXK"/>
+                        </connections>
+                    </scrollView>
+                    <button hidden="YES" opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSw-9A-afP" customClass="RoundButton" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="20" y="194" width="120" height="36"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="2cZ-XV-UuG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <state key="normal" title="Delete">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonDeleteWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Fvp-3j-yZM"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRg-i7-L40" customClass="RoundButton" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="127" y="194" width="120" height="36"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="zyi-V0-IfD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <state key="normal" title="Delete">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonDeleteOnlyWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dmE-Vr-1Vz"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edL-Vw-RyS" customClass="RoundButton" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="235" y="194" width="120" height="36"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Uhe-Ej-7hI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <state key="normal" title="Main Image">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonMainImageWithSender:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="abE-tb-Bav"/>
+                        </connections>
+                    </button>
+                    <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="10" translatesAutoresizingMaskIntoConstraints="NO" id="rG0-Np-kZ5" customClass="CustomPageControl" customModule="Live" customModuleProvider="target">
+                        <rect key="frame" x="147" y="230" width="80" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="image" keyPath="currentPageImage" value="currentPage"/>
+                            <userDefinedRuntimeAttribute type="image" keyPath="otherPagesImage" value="otherPage"/>
+                        </userDefinedRuntimeAttributes>
+                    </pageControl>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-s8-HNl">
+                        <rect key="frame" x="-0.66666666666665719" y="-1" width="375.33333333333326" height="270"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click &quot;+&quot; to upload image and video about your experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q84-4I-ER6" userLabel="By clicking on &quot;+&quot; you can upload image and video about your exprience.">
+                                <rect key="frame" x="3" y="125.66666666666667" width="369.33333333333331" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vector" translatesAutoresizingMaskIntoConstraints="NO" id="Gvd-9f-1fy">
+                                <rect key="frame" x="129" y="170" width="60" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="jJo-3k-UTO"/>
+                                    <constraint firstAttribute="height" constant="68" id="zkD-BN-xfv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="q84-4I-ER6" secondAttribute="trailing" constant="3" id="MYc-vh-CT2"/>
+                            <constraint firstAttribute="bottom" secondItem="Gvd-9f-1fy" secondAttribute="bottom" constant="32" id="Rsd-nF-nfb"/>
+                            <constraint firstItem="q84-4I-ER6" firstAttribute="leading" secondItem="4GM-s8-HNl" secondAttribute="leading" constant="3" id="ThS-3f-cFe"/>
+                            <constraint firstItem="q84-4I-ER6" firstAttribute="centerY" secondItem="4GM-s8-HNl" secondAttribute="centerY" id="oYR-yE-boS"/>
+                            <constraint firstItem="Gvd-9f-1fy" firstAttribute="leading" secondItem="4GM-s8-HNl" secondAttribute="leading" constant="129" id="vis-l6-BTg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KdS-tz-hkC" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="3dI-sr-KlC"/>
+                    <constraint firstAttribute="trailing" secondItem="py8-9S-KzE" secondAttribute="trailing" id="9SH-py-oGc"/>
+                    <constraint firstItem="py8-9S-KzE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9TM-M2-hQR"/>
+                    <constraint firstItem="4GM-s8-HNl" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="9kw-jf-CZD"/>
+                    <constraint firstAttribute="trailing" secondItem="edL-Vw-RyS" secondAttribute="trailing" constant="20" id="A3z-VZ-g6s"/>
+                    <constraint firstItem="py8-9S-KzE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="-45" id="Cee-p2-eyx"/>
+                    <constraint firstItem="xXN-7y-wGs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="FNB-Hf-HUc"/>
+                    <constraint firstItem="IRg-i7-L40" firstAttribute="centerY" secondItem="cSw-9A-afP" secondAttribute="centerY" id="JeN-MT-SlJ"/>
+                    <constraint firstAttribute="bottom" secondItem="py8-9S-KzE" secondAttribute="bottom" constant="-0.33333333333331439" id="OM0-gp-SSJ"/>
+                    <constraint firstAttribute="bottom" secondItem="edL-Vw-RyS" secondAttribute="bottom" constant="40" id="QKG-8w-Doj"/>
+                    <constraint firstItem="4GM-s8-HNl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="R8t-Xy-TV1"/>
+                    <constraint firstAttribute="bottom" secondItem="cSw-9A-afP" secondAttribute="bottom" constant="40" id="SXK-4f-UP7"/>
+                    <constraint firstItem="cSw-9A-afP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Uez-SJ-ObK"/>
+                    <constraint firstItem="KdS-tz-hkC" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="e8U-yl-ZN0"/>
+                    <constraint firstItem="KdS-tz-hkC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="f1F-vy-wO0"/>
+                    <constraint firstItem="IRg-i7-L40" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="hDb-ze-GOx"/>
+                    <constraint firstItem="KdS-tz-hkC" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="iNd-kr-e9P"/>
+                    <constraint firstItem="4GM-s8-HNl" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="khp-e8-GWl"/>
+                    <constraint firstItem="py8-9S-KzE" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="qdz-nB-rlK"/>
+                    <constraint firstItem="h7z-YE-H12" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="qk9-8N-cYE"/>
+                    <constraint firstItem="py8-9S-KzE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-22.333333333333343" id="uF8-Ti-AhZ"/>
+                    <constraint firstItem="4GM-s8-HNl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="uNC-UZ-Ye1"/>
+                    <constraint firstItem="xXN-7y-wGs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.89" constant="15.5" id="yei-FJ-m00"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnDelete" destination="cSw-9A-afP" id="aSD-r4-g0j"/>
+                <outlet property="btnDeleteOnly" destination="IRg-i7-L40" id="apY-hm-R4a"/>
+                <outlet property="btnMainImage" destination="edL-Vw-RyS" id="mPg-Yy-LKX"/>
+                <outlet property="hintView" destination="4GM-s8-HNl" id="EtK-uT-XUz"/>
+                <outlet property="lblHintLable" destination="q84-4I-ER6" id="PNG-eC-BXD"/>
+                <outlet property="pageControl" destination="rG0-Np-kZ5" id="aFe-IE-ywa"/>
+                <outlet property="scrMain" destination="py8-9S-KzE" id="74h-H2-Yui"/>
+                <outlet property="scrViewTopConstant" destination="Cee-p2-eyx" id="nbY-wD-4Am"/>
+                <outlet property="videoImg" destination="xXN-7y-wGs" id="TIY-c5-cEc"/>
+                <outlet property="view" destination="h7z-YE-H12" id="uVa-tQ-Ul9"/>
+            </connections>
+            <point key="canvasLocation" x="-100" y="52"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="currentPage" width="8" height="8"/>
+        <image name="ic_fullscreen" width="42" height="42"/>
+        <image name="otherPage" width="8" height="8"/>
+        <image name="vector" width="60" height="68"/>
+    </resources>
+</document>

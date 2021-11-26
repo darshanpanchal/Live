@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Heavy</string>
+            <string>Avenir-Roman</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookingDetailProfileTableViewCell" rowHeight="265" id="KGk-i7-Jjw" customClass="BookingDetailProfileTableViewCell" customModule="Live" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="244"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="243.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOx-lV-m0C">
+                        <rect key="frame" x="20" y="10" width="351" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="aP0-Wk-rWr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N9E-Jz-1n5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vR-sl-cPm">
+                        <rect key="frame" x="20" y="46" width="351" height="64"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="updatedProfilePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="RG0-Al-xGW" customClass="ImageViewForURL" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="YEc-6r-nxC"/>
+                                    <constraint firstAttribute="height" constant="64" id="a7f-V8-jX8"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="bjF-5M-fC8"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBd-Zm-kBS">
+                                <rect key="frame" x="89" y="13" width="261" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="1Pq-Nc-Hxt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleAspectFit" horizontalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="rjO-DS-hfa" customClass="FloatRatingView" customModule="Live" customModuleProvider="target">
+                                <rect key="frame" x="89" y="38" width="104.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="egW-Xk-Z1i"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="editable" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="emptyRateStar"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="ratingStarFiled"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="minImageSize">
+                                        <size key="value" width="13.34" height="12.74"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RG0-Al-xGW" firstAttribute="top" secondItem="7vR-sl-cPm" secondAttribute="top" id="7bj-Ql-lML"/>
+                            <constraint firstItem="rjO-DS-hfa" firstAttribute="top" secondItem="wBd-Zm-kBS" secondAttribute="bottom" constant="3" id="FNB-1q-vjr"/>
+                            <constraint firstAttribute="bottom" secondItem="RG0-Al-xGW" secondAttribute="bottom" id="KBX-6u-z9M"/>
+                            <constraint firstItem="rjO-DS-hfa" firstAttribute="leading" secondItem="wBd-Zm-kBS" secondAttribute="leading" id="MAo-mL-sZO"/>
+                            <constraint firstAttribute="trailing" secondItem="wBd-Zm-kBS" secondAttribute="trailing" constant="1" id="PnO-xN-Ivc"/>
+                            <constraint firstItem="wBd-Zm-kBS" firstAttribute="centerY" secondItem="RG0-Al-xGW" secondAttribute="centerY" multiplier="0.75" id="Zh6-4e-H60"/>
+                            <constraint firstAttribute="height" constant="64" id="eKI-57-prw"/>
+                            <constraint firstItem="RG0-Al-xGW" firstAttribute="leading" secondItem="7vR-sl-cPm" secondAttribute="leading" id="lsr-oT-bS6"/>
+                            <constraint firstItem="wBd-Zm-kBS" firstAttribute="leading" secondItem="RG0-Al-xGW" secondAttribute="trailing" constant="25" id="p0F-jv-huV"/>
+                            <constraint firstItem="rjO-DS-hfa" firstAttribute="width" secondItem="wBd-Zm-kBS" secondAttribute="width" multiplier="0.4" id="yai-t1-Yss"/>
+                        </constraints>
+                    </view>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGO-lt-9hj">
+                        <rect key="frame" x="20" y="228.5" width="335" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wig-Nk-Uf5">
+                        <rect key="frame" x="20" y="228.5" width="46" height="5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="46" id="3Ej-FT-lIy"/>
+                            <constraint firstAttribute="height" constant="5" id="L6L-Dh-80f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="-10" maxX="0.0" maxY="10"/>
+                        <state key="normal" title="...">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za6-jF-rCF" customClass="ReadMoreTextView" customModule="ReadMoreTextView">
+                        <rect key="frame" x="20" y="127" width="351" height="99.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Wig-Nk-Uf5" secondAttribute="bottom" constant="10" id="03J-gd-rdJ"/>
+                    <constraint firstItem="pGO-lt-9hj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="4t0-T9-yfK"/>
+                    <constraint firstItem="7vR-sl-cPm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="524-on-884"/>
+                    <constraint firstItem="Wig-Nk-Uf5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="97t-N9-Ze7"/>
+                    <constraint firstItem="HOx-lV-m0C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="FjK-PV-XCg"/>
+                    <constraint firstAttribute="trailing" secondItem="pGO-lt-9hj" secondAttribute="trailing" constant="16" id="ISR-DT-q3V"/>
+                    <constraint firstItem="za6-jF-rCF" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="16" id="KuG-SH-xvn"/>
+                    <constraint firstAttribute="trailing" secondItem="7vR-sl-cPm" secondAttribute="trailing" id="QmG-ey-amT"/>
+                    <constraint firstItem="Wig-Nk-Uf5" firstAttribute="top" secondItem="pGO-lt-9hj" secondAttribute="bottom" priority="500" id="RNz-Xx-2QF"/>
+                    <constraint firstItem="za6-jF-rCF" firstAttribute="top" secondItem="7vR-sl-cPm" secondAttribute="bottom" constant="17" id="XQI-ws-e2I"/>
+                    <constraint firstItem="HOx-lV-m0C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="lDL-Fa-eZg"/>
+                    <constraint firstItem="za6-jF-rCF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="rpA-ap-CMW"/>
+                    <constraint firstAttribute="trailing" secondItem="HOx-lV-m0C" secondAttribute="trailing" id="tXp-SY-08J"/>
+                    <constraint firstItem="pGO-lt-9hj" firstAttribute="top" secondItem="za6-jF-rCF" secondAttribute="bottom" constant="2" id="vEa-0n-Z5o"/>
+                    <constraint firstItem="7vR-sl-cPm" firstAttribute="top" secondItem="HOx-lV-m0C" secondAttribute="bottom" constant="17" id="xf3-Vq-NvV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="guideDetailLbl" destination="pGO-lt-9hj" id="5QH-Eq-iHV"/>
+                <outlet property="guideDetailTxtView" destination="za6-jF-rCF" id="DoG-Q9-duB"/>
+                <outlet property="guideNameLbl" destination="wBd-Zm-kBS" id="WWc-wb-Cw6"/>
+                <outlet property="profilePicImage" destination="RG0-Al-xGW" id="7QN-4O-kHa"/>
+                <outlet property="ratingView" destination="rjO-DS-hfa" id="rCJ-7f-DZm"/>
+                <outlet property="seeMoreBtn" destination="Wig-Nk-Uf5" id="jxm-eE-F0F"/>
+                <outlet property="theGuideLbl" destination="HOx-lV-m0C" id="XAf-O2-SjF"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="74"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="emptyRateStar" width="15" height="15"/>
+        <image name="ratingStarFiled" width="48" height="48"/>
+        <image name="updatedProfilePlaceholder" width="90" height="90"/>
+    </resources>
+</document>

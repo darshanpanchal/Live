@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>email.placeholder</key>
+	<string>Email</string>
+	<key>password.placeholder</key>
+	<string>Password</string>
+	<key>title.rememberMe</key>
+	<string>Remember me</string>
+	<key>save.title</key>
+	<string>Save</string>
+	<key>title.skip</key>
+	<string>Skip</string>
+	<key>title.signIn</key>
+	<string>Login</string>
+	<key>title.forgotpassword</key>
+	<string>Forgot password</string>
+	<key>title.createNewAccount</key>
+	<string>Create New Account</string>
+	<key>title.FBLogIn</key>
+	<string>Facebook Login</string>
+	<key>title.whereToNext</key>
+	<string>Where to next?</string>
+	<key>title.chooseCountry</key>
+	<string>Please choose a country you want to go</string>
+	<key>title.searchCountry</key>
+	<string>Search country</string>
+	<key>recoverPassword.title</key>
+	<string>Recover password</string>
+	<key>confirmPassword.title</key>
+	<string>Confirm password</string>
+	<key>pleaseEnterValidEmail.title</key>
+	<string>Please enter valid email</string>
+	<key>pleaseEnterPassword.title</key>
+	<string>Please enter password</string>
+	<key>minRequiredPassword</key>
+	<string>Password must have minimum 6 digits</string>
+	<key>maxRequiredPassword</key>
+	<string>please enter maximum 15 characters password.</string>
+	<key>connectionRequiered</key>
+	<string>Please check your connection and try again.</string>
+	<key>forgotPasswordDescription</key>
+	<string>Please enter your live login email so that we can help you to create your new password.</string>
+	<key>alreadyHaveCode.title</key>
+	<string>Already have recovery code!</string>
+	<key>next.title</key>
+	<string>Next</string>
+	<key>enterEmail.title</key>
+	<string>Please enter email</string>
+	<key>SoonYouWill.title</key>
+	<string>Soon you will be with us again!</string>
+	<key>emailReceive.title</key>
+	<string>You&apos;ll receive an email with the information to recover your password.</string>
+	<key>gotCode.title</key>
+	<string>Got Recovery Code</string>
+	<key>recoveryCode.title</key>
+	<string>Recovery Code</string>
+	<key>reset.title</key>
+	<string>Reset</string>
+	<key>confirmPasswordvalidation</key>
+	<string>Please enter confirm password</string>
+	<key>minConfirmPassword</key>
+	<string>Password must have minimum 6 digits</string>
+	<key>maxConfirmPassword</key>
+	<string>please enter maximum 15 characters confirm password.</string>
+	<key>confirmPasswordAsPassword</key>
+	<string>Passwords do not match</string>
+	<key>resetPassword</key>
+	<string>Reset Password</string>
+	<key>ok.title</key>
+	<string>Ok</string>
+	<key>firstName.title</key>
+	<string>First name</string>
+	<key>lastName.title</key>
+	<string>Last name</string>
+	<key>gender.title</key>
+	<string>Gender</string>
+	<key>male</key>
+	<string>Male</string>
+	<key>female</key>
+	<string>Female</string>
+	<key>others</key>
+	<string>Other</string>
+	<key>birthDay</key>
+	<string>Birthday</string>
+	<key>specifyGender</key>
+	<string>Specify gender (optional)</string>
+	<key>firstNameValidation</key>
+	<string>Please enter First name</string>
+	<key>lastNameValidation</key>
+	<string>Please enter Last name</string>
+	<key>agreeTC</key>
+	<string>Please agree with the terms and conditions.</string>
+	<key>password</key>
+	<string>password</string>
+	<key>confirmpassword</key>
+	<string>confirm password</string>
+	<key>pleaseEnter</key>
+	<string>please enter</string>
+	<key>readT&amp;C</key>
+	<string>Read T&amp;C</string>
+	<key>register</key>
+	<string>Register</string>
+	<key>createNewAccount</key>
+	<string>Create New Account</string>
+	<key>byRegistering</key>
+	<string>By registering you agree to our</string>
+	<key>discover</key>
+	<string>Discover</string>
+	<key>instant</key>
+	<string>Instantly available experiences</string>
+	<key>Bestrated</key>
+	<string>Best rated</string>
+	<key>Explorecollections</key>
+	<string>Explore collections</string>
+	<key>Topratedguides</key>
+	<string>Top rated guides</string>
+	<key>AllExperiences</key>
+	<string>All Experiences</string>
+	<key>instantDesc</key>
+	<string>Book a tour nearby within the hour</string>
+	<key>bestRateDesc</key>
+	<string>Book now one of our best rated experiences!</string>
+	<key>exploreDesc</key>
+	<string>Choose the mood you want to experiment.</string>
+	<key>nothingToSee</key>
+	<string>Nothing to see</string>
+	<key>filter</key>
+	<string>Filters</string>
+	<key>showMore</key>
+	<string>Show more</string>
+	<key>MaximumPeople:</key>
+	<string>Maximum People:</string>
+	<key>MinimumPeople:</key>
+	<string>Minimum People:</string>
+	<key>InstantBooking</key>
+	<string>Instant Booking</string>
+	<key>InstantBookingAelrt</key>
+	<string>When you make an instant booking it is due in 1 hr. Do you want to book?</string>
+	<key>yes</key>
+	<string>Yes</string>
+	<key>no</key>
+	<string>No</string>
+	<key>theGuide</key>
+	<string>The Guide</string>
+	<key>meetingPoint</key>
+	<string>Meeting Point</string>
+	<key>Instant</key>
+	<string>Instant</string>
+	<key>BookNow</key>
+	<string>Book Now</string>
+	<key>Information</key>
+	<string>Information</string>
+	<key>notBookTourMsg</key>
+	<string>You can not book your own tour</string>
+	<key>Accessible</key>
+	<string>Accessible</string>
+	<key>PetFriendly</key>
+	<string>Pet Friendly</string>
+	<key>FreeElderly</key>
+	<string>Free for elderly</string>
+	<key>review</key>
+	<string>Reviews</string>
+	<key>Mode</key>
+	<string>Mode</string>
+	<key>chooseMode</key>
+	<string>Choose travelling mode from</string>
+	<key>Cancel</key>
+	<string>Cancel</string>
+	<key>Driving</key>
+	<string>Driving</string>
+	<key>Walking</key>
+	<string>Walking</string>
+	<key>Bicycling</key>
+	<string>Bicycling</string>
+	<key>Transit</key>
+	<string>Transit</string>
+	<key>Booking</key>
+	<string>Booking</string>
+	<key>when</key>
+	<string>When</string>
+	<key>Time</key>
+	<string>Time</string>
+	<key>HowManyGuest</key>
+	<string>How many guests?</string>
+	<key>BookingOption</key>
+	<string>Booking options</string>
+	<key>priceperperson</key>
+	<string>price per person</string>
+	<key>pricepergroup</key>
+	<string>price per group</string>
+	<key>person</key>
+	<string>Person</string>
+	<key>noTimeSlot</key>
+	<string>No time slots available for current selected date.</string>
+	<key>noTimeSlot.title</key>
+	<string>No time slots</string>
+	<key>UpcomingExperience</key>
+	<string>Upcoming Experience</string>
+	<key>BecomeGuide</key>
+	<string>Qualified Guide Request</string>
+	<key>Settings</key>
+	<string>Profile Settings</string>
+	<key>TermsandConditions</key>
+	<string>Terms and Conditions</string>
+	<key>Logout</key>
+	<string>Logout</string>
+	<key>MySchedule</key>
+	<string>My Schedule</string>
+	<key>MyTours</key>
+	<string>My tours</string>
+	<key>RequestLocation</key>
+	<string>Request Location</string>
+	<key>Location</key>
+	<string>Location</string>
+	<key>Payment</key>
+	<string>Payment</string>
+	<key>BankDetail</key>
+	<string>Bank Details</string>
+	<key>Description</key>
+	<string>Description</string>
+	<key>ChangePassword</key>
+	<string>Change Password</string>
+	<key>ChangeLanguage</key>
+	<string>App Language</string>
+	<key>notLogin.title</key>
+	<string>Login Required</string>
+	<key>notLogin.msg</key>
+	<string>please login to continue.</string>
+	<key>ProfileImage</key>
+	<string>Profile Image</string>
+	<key>Photos</key>
+	<string>Choose Photo</string>
+	<key>Camera</key>
+	<string>Camera</string>
+	<key>Cameranotsupported</key>
+	<string>Camera not supported in simulator.</string>
+	<key>ChangeLocation</key>
+	<string>Change Location</string>
+	<key>ChangeLocation.msg</key>
+	<string>It is not possible to change the country for your guide profile. However, you can create another profile by entering another email address for a new country and from here you can edit only your city for your country.</string>
+	<key>More</key>
+	<string>More</string>
+	<key>CurrentPassword</key>
+	<string>Current Password</string>
+	<key>NewPassword</key>
+	<string>New Password</string>
+	<key>ConfirmPassword</key>
+	<string>Confirm Password</string>
+	<key>enterCurrentPassword</key>
+	<string>Please enter current password</string>
+	<key>enterValidCurrentPassword</key>
+	<string>Please enter valid current password.</string>
+	<key>enterNewPassword</key>
+	<string>Please enter new password</string>
+	<key>minNewPassword</key>
+	<string>Password must have minimum 6 digits</string>
+	<key>maxNewPassword</key>
+	<string>please enter maximum 15 characters new password.</string>
+	<key>guide</key>
+	<string>Guide</string>
+	<key>traveler</key>
+	<string>Traveller</string>
+	<key>language</key>
+	<string>Language</string>
+	<key>bankAccount</key>
+	<string>Bank account</string>
+	<key>bankName</key>
+	<string>Bank name</string>
+	<key>swiftBic</key>
+	<string>Swift/BIC</string>
+	<key>iban</key>
+	<string>IBAN</string>
+	<key>bankAddress</key>
+	<string>Bank address</string>
+	<key>bankNameValidation</key>
+	<string>Please enter bank name.</string>
+	<key>bankAccountValidation</key>
+	<string>Please enter bank account.</string>
+	<key>swiftBicValidation</key>
+	<string>Please enter Swift bic.</string>
+	<key>iBanValidation</key>
+	<string>Please enter Iban.</string>
+	<key>descriptionPlaceholder</key>
+	<string>Here you add your description of yourself as a guide. This is very important and one of the most viewed parts of your profile. So make good   presentation of yourself, your skills and history.</string>
+	<key>languageChangeMsg</key>
+	<string>Are you sure you want to change application language?</string>
+	<key>searchLocation</key>
+	<string>Search Location</string>
+	<key>SelectLocation</key>
+	<string>Select Location</string>
+	<key>savedCards</key>
+	<string>Saved Cards</string>
+	<key>addCards</key>
+	<string>Add Card</string>
+	<key>Pay</key>
+	<string>Pay</string>
+	<key>nextSetp</key>
+	<string>Send suggestion to guide</string>
+	<key>card</key>
+	<string>Card</string>
+	<key>name</key>
+	<string>Name</string>
+	<key>expiryDate</key>
+	<string>MM/YYYY</string>
+	<key>CVV</key>
+	<string>CVV</string>
+	<key>cardNumber</key>
+	<string>Card Number</string>
+	<key>nameOncard</key>
+	<string>Name on the card</string>
+	<key>add</key>
+	<string>Add</string>
+	<key>addNewCard</key>
+	<string>Add New Card</string>
+	<key>lblCardHolder</key>
+	<string>Cardholder Name</string>
+	<key>delete</key>
+	<string>Delete</string>
+	<key>deleteCardAlertMsg</key>
+	<string>Are you sure you want to delete card?</string>
+	<key>deleteCard.title</key>
+	<string>Delete card</string>
+	<key>cardNumberValidation</key>
+	<string>Please enter valid card number</string>
+	<key>cardNameValidation</key>
+	<string>Please enter card holder name</string>
+	<key>cardDateValidation</key>
+	<string>Please enter valid card expiry date</string>
+	<key>cardExpiryValidation</key>
+	<string>Please enter card expiry date</string>
+	<key>cardCVVValidation</key>
+	<string>Please enter card cvv</string>
+	<key>checkOut</key>
+	<string>Checkout</string>
+	<key>date</key>
+	<string>Date</string>
+	<key>NumberOfGuest</key>
+	<string>How many guests?</string>
+	<key>whichLanguage</key>
+	<string>Which language?</string>
+	<key>creditCard</key>
+	<string>Credit Card</string>
+	<key>amount</key>
+	<string>Amount</string>
+	<key>groupBooking</key>
+	<string>guest (Group Booking)</string>
+	<key>bookAndPay</key>
+	<string>Book and pay</string>
+	<key>addNewExperience</key>
+	<string>Add New Experience</string>
+	<key>lblHintCamera</key>
+	<string>Click &quot;+&quot; to upload image and video about your exprience</string>
+	<key>experienceTitle</key>
+	<string>Title of Experience</string>
+	<key>price</key>
+	<string>Price</string>
+	<key>currency</key>
+	<string>Currency</string>
+	<key>duration</key>
+	<string>Duration</string>
+	<key>effort</key>
+	<string>Effort</string>
+	<key>MinGuestNumber</key>
+	<string>Min Guests Number</string>
+	<key>MaxGuestNumber</key>
+	<string>Max Guests Number</string>
+	<key>languages</key>
+	<string>Languages</string>
+	<key>collections</key>
+	<string>Collections</string>
+	<key>meetingAddress</key>
+	<string>Meeting Address</string>
+	<key>postalZip</key>
+	<string>Postal/Zip</string>
+	<key>addressReference</key>
+	<string>Address Reference(Optional)</string>
+	<key>InstantExperience</key>
+	<string>Instant Experience</string>
+	<key>WheelchairAccessible</key>
+	<string>Wheelchair Accessible</string>
+	<key>FreeChildren</key>
+	<string>Adults only</string>
+	<key>Restrictions</key>
+	<string>Additional information</string>
+	<key>addSchedules</key>
+	<string>Add Schedules</string>
+	<key>newExperience</key>
+	<string>New Experience</string>
+	<key>updateExperience</key>
+	<string>Update Experience</string>
+	<key>addExperienceAlert.msg</key>
+	<string>Are you sure you want to leave the screen? All the changes will be discarded</string>
+	<key>updateExperience.msg</key>
+	<string>Experience Updated Successfully.</string>
+	<key>newExperience.msg</key>
+	<string>New Experience Added Successfully.</string>
+	<key>Videos</key>
+	<string>Choose Video</string>
+	<key>selectMin2Pics</key>
+	<string>There should be minimum 2 images to add experience.</string>
+	<key>experienceTitleValidation</key>
+	<string>Please enter valid title for experience.</string>
+	<key>currencyValidation</key>
+	<string>Please select valid currency</string>
+	<key>personPriceValidation</key>
+	<string>Please enter valid price</string>
+	<key>groupPriceValidation</key>
+	<string>Please enter valid price</string>
+	<key>descriptionValidation</key>
+	<string>Please enter valid description.</string>
+	<key>durationValidation</key>
+	<string>Invalid duration</string>
+	<key>effortValidation</key>
+	<string>Invalid effort</string>
+	<key>minMaxGuest</key>
+	<string>max number of guest must be greater than min guest.</string>
+	<key>langaugeValidation</key>
+	<string>Please select atleast one language.</string>
+	<key>colletionValidation</key>
+	<string>Please select atleast one collection.</string>
+	<key>locationValidation</key>
+	<string>Please enter valid location.</string>
+	<key>meetingAddressValidation</key>
+	<string>Please enter valid meeting location.</string>
+	<key>postalValidation</key>
+	<string>Please enter valid postal/zip.</string>
+	<key>restrictionValidation</key>
+	<string>Please enter experience restriction.</string>
+	<key>scheduleValidation</key>
+	<string>Please enter experience schedule.</string>
+	<key>Soft</key>
+	<string>Soft</string>
+	<key>Moderate</key>
+	<string>Moderate</string>
+	<key>Hard</key>
+	<string>Hard</string>
+	<key>Extreme</key>
+	<string>Extreme</string>
+	<key>Once</key>
+	<string>Once</string>
+	<key>Daily</key>
+	<string>Daily</string>
+	<key>Weekly</key>
+	<string>Weekly</string>
+	<key>Weekdays</key>
+	<string>Weekdays</string>
+	<key>Monthly</key>
+	<string>Monthly</string>
+	<key>Monday</key>
+	<string>Monday</string>
+	<key>Tuesday</key>
+	<string>Tuesday</string>
+	<key>Wednesday</key>
+	<string>Wednesday</string>
+	<key>Thursday</key>
+	<string>Thursday</string>
+	<key>Friday</key>
+	<string>Friday</string>
+	<key>Saturday</key>
+	<string>Saturday</string>
+	<key>Sunday</key>
+	<string>Sunday</string>
+	<key>Select</key>
+	<string>Select</string>
+	<key>SearchCity</key>
+	<string>Select city</string>
+	<key>SearchPrice</key>
+	<string>Select Price</string>
+	<key>SearchCurrency</key>
+	<string>Select Currency</string>
+	<key>SearchEffort</key>
+	<string>Select Effort</string>
+	<key>SearchLangauge</key>
+	<string>Select Languages</string>
+	<key>SearchCollection</key>
+	<string>Select Collections</string>
+	<key>SearchOccurence</key>
+	<string>Select Occurence</string>
+	<key>SearchWeekDay</key>
+	<string>Select WeekDay</string>
+	<key>requestLocation</key>
+	<string>Request for Location</string>
+	<key>requestLocation.msg</key>
+	<string>If you didn&apos;t find your location then please click on above link and add new location, once admin approve new location you can see it in bellow list</string>
+	<key>howOften?</key>
+	<string>How Often?</string>
+	<key>pickStartTime</key>
+	<string>Pick Start Time</string>
+	<key>addSchedule</key>
+	<string>Add Schedule</string>
+	<key>newSchedule</key>
+	<string>New Schedule</string>
+	<key>newSchedule.msg</key>
+	<string>Are you sure you want to leave because all data will be lost?</string>
+	<key>SelectDate</key>
+	<string>Select Date</string>
+	<key>PickDay</key>
+	<string>Pick Days</string>
+	<key>Done</key>
+	<string>Done</string>
+	<key>scheduleType</key>
+	<string>Please select type of schedule.</string>
+	<key>scheduleTime</key>
+	<string>Please select schedule time.</string>
+	<key>scheduleDate</key>
+	<string>Please select valid schedule date.</string>
+	<key>scheduleWeekday</key>
+	<string>Please select schedule weekday.</string>
+	<key>scheduleDay</key>
+	<string>Please select valid schedule day.</string>
+	<key>mainImage</key>
+	<string>Main Image</string>
+	<key>ExperienceSchedule</key>
+	<string>Experience Schedule</string>
+	<key>ExperienceSchedule.msg</key>
+	<string>Are you sure you want to delete this time schedule?</string>
+	<key>enterData</key>
+	<string>Please enter data.</string>
+	<key>selectImage</key>
+	<string>Please select image.</string>
+	<key>selectCountry</key>
+	<string>Please select country.</string>
+	<key>enterState</key>
+	<string>Please enter state.</string>
+	<key>enterCity</key>
+	<string>Please enter city.</string>
+	<key>LocationImage</key>
+	<string>Location Image</string>
+	<key>LocationImage.msg</key>
+	<string>Choose location image from</string>
+	<key>Remove</key>
+	<string>Remove</string>
+	<key>SelectCoutry</key>
+	<string>Select Country</string>
+	<key>State</key>
+	<string>State</string>
+	<key>City</key>
+	<string>City</string>
+	<key>LocationRequest</key>
+	<string>Location Request</string>
+	<key>Approved</key>
+	<string>(Approved)</string>
+	<key>logout.msg</key>
+	<string>Are you sure you want to logout?</string>
+	<key>MyLive</key>
+	<string>My Live</string>
+	<key>CancelTour</key>
+	<string>Cancel Tour</string>
+	<key>CancelTour.msg</key>
+	<string>Are you sure you want to cancel this tour?</string>
+	<key>cancellation.msg</key>
+	<string>Cancellations must be made within 48 hrs according to the rules. So if you proceed you will not get any refund. Do you want to continue to cancel this booking?</string>
+	<key>delete.msg</key>
+	<string>Are you sure you want to delete?</string>
+	<key>fullSchedule</key>
+	<string>FULL SCHEDULE</string>
+	<key>UpcomingExperiences</key>
+	<string>Upcoming Experiences</string>
+	<key>Wishlist</key>
+	<string>Wishlist</string>
+	<key>LivedExperiences</key>
+	<string>Lived Experiences</string>
+	<key>UpcomingExperiences.msg</key>
+	<string>Experiences in your wishlist</string>
+	<key>LivedExperiences.msg</key>
+	<string>Your lived experiences</string>
+	<key>AddNewExperiences</key>
+	<string>Add new experiences</string>
+	<key>onlyInstant</key>
+	<string>Only Instant Experiences</string>
+	<key>UpToHowMuch?</key>
+	<string>Up to how much?</string>
+	<key>apply</key>
+	<string>Apply</string>
+	<key>EditName</key>
+	<string>Edit name</string>
+	<key>Clear</key>
+	<string>Clear</string>
+	<key>findBestExperience</key>
+	<string>Find the best experience</string>
+	<key>Success</key>
+	<string>Success</string>
+	<key>offeredExperiences</key>
+	<string>Offered Experiences</string>
+	<key>offeredExperiences.msg</key>
+	<string>Experiences provided by</string>
+	<key>Pending</key>
+	<string>Pending</string>
+	<key>Calendar</key>
+	<string>Calendar</string>
+	<key>Upcoming</key>
+	<string>Upcoming</string>
+	<key>History</key>
+	<string>History</string>
+	<key>people</key>
+	<string>people</string>
+	<key>Approved.title</key>
+	<string>Approved</string>
+	<key>Schedule</key>
+	<string>Schedule</string>
+	<key>Chat</key>
+	<string>Chats</string>
+	<key>Chat.msg</key>
+	<string>The conversation already exist with this experience</string>
+	<key>noData</key>
+	<string>No data found</string>
+	<key>OTHER</key>
+	<string>Other Upcoming</string>
+	<key>UPCOMING</key>
+	<string>Upcoming</string>
+	<key>EnterMessage</key>
+	<string>Type a message</string>
+	<key>SelectExperience</key>
+	<string>Select Experience</string>
+	<key>guideForChat</key>
+	<string>(Guide)</string>
+	<key>sendBtn</key>
+	<string>Send</string>
+	<key>share.text1</key>
+	<string>with us!</string>
+	<key>share.text2</key>
+	<string>Experience:</string>
+	<key>commonError</key>
+	<string>Something went wrong.</string>
+	<key>NoInternet</key>
+	<string>Please check your connection and try again.</string>
+	<key>NoInternetPage.text1</key>
+	<string>No Internet Connection</string>
+	<key>NoInternetPage.text2</key>
+	<string>Something went wrong. Please check with your data connection</string>
+	<key>Retry</key>
+	<string>Retry</string>
+	<key>GUIDE</key>
+	<string>I am a guide</string>
+	<key>TRAVELER</key>
+	<string>I am a traveller</string>
+	<key>review.title</key>
+	<string>Review</string>
+	<key>review.hint</key>
+	<string>Type your review here</string>
+	<key>submit</key>
+	<string>Submit</string>
+	<key>CANCEL</key>
+	<string>CANCEL</string>
+	<key>confirmed</key>
+	<string>confirmed</string>
+	<key>pending</key>
+	<string>pending</string>
+	<key>Activate</key>
+	<string>Activate</string>
+	<key>Deactivate</key>
+	<string>Deactivate</string>
+	<key>ActivateTour</key>
+	<string>Active / Inactive</string>
+	<key>Activate.msg1</key>
+	<string>Are you sure you want to activate the</string>
+	<key>Activate.msg2</key>
+	<string>it will be now visible to other travelers after the activation</string>
+	<key>DeActivate.msg1</key>
+	<string>Are you sure you want to deactivate the</string>
+	<key>DeActivate.msg2</key>
+	<string>it will be no longer visible to other travelers after the deactivation</string>
+	<key>ExperienceDeleted</key>
+	<string>Experience Deleted</string>
+	<key>ContactUs</key>
+	<string>Contact Us</string>
+	<key>Active</key>
+	<string>Active</string>
+	<key>InActive</key>
+	<string>Inactive</string>
+	<key>pleaseEnterBankAddress.</key>
+	<string>please enter bank address.</string>
+	<key>pleaseEnterIban.</key>
+	<string>please enter Iban.</string>
+	<key>pleaseEnterSwiftBic.</key>
+	<string>please enter Swift Bic.</string>
+	<key>pleaseEnterBankAccount.</key>
+	<string>please enter Bank Account.</string>
+	<key>pleaseEnterBankName.</key>
+	<string>please enter Bank Name.</string>
+	<key>CalculatingDistance</key>
+	<string>Calculating Distance...</string>
+	<key>Anonymous</key>
+	<string>Anonymous</string>
+	<key>SearchHere</key>
+	<string>Search here</string>
+	<key>HowOften</key>
+	<string>How Often?</string>
+	<key>login_request_message_chat</key>
+	<string>Please login to use chat.</string>
+	<key>login_request_message_mylive</key>
+	<string>Please login to manage your experiences.</string>
+	<key>SEND</key>
+	<string>SEND</string>
+	<key>OTHERSUPCOMING</key>
+	<string>Other upcoming</string>
+	<key>showcaseLocation</key>
+	<string>Tap to explore tours of other countries</string>
+	<key>guideRequest.title</key>
+	<string>Guide Request</string>
+	<key>Experience.title</key>
+	<string>Experience</string>
+	<key>NoData.chat</key>
+	<string>No data found</string>
+	<key>guideRequest.Message</key>
+	<string>To be accepted as a guide you need to be a certified guide. This certification will have to be provided on request. I understand, I am a qualified tourist guide.</string>
+	<key>channelAlreadyDeleted</key>
+	<string>This channel already deleted</string>
+	<key>Country</key>
+	<string>Country</string>
+	<key>deleteConfirmation</key>
+	<string>Are you sure you want to delete this chat history?</string>
+	<key>AddBadge.hint</key>
+	<string>Add Badge</string>
+	<key>ProfileImageValidation</key>
+	<string>Please upload profile image.</string>
+	<key>BadgeImageValidation</key>
+	<string>Please upload badge image.</string>
+	<key>guideRequest.Success</key>
+	<string>Your guide request sent successfully.once it approved by admin you will notify by email.</string>
+	<key>ChangeBadge.hint</key>
+	<string>Change Badge</string>
+	<key>block.hint</key>
+	<string>Block</string>
+	<key>blockMSG.hint</key>
+	<string>You are temporary blocked so you can&apos;t login. Please contact to administrator!</string>
+	<key>err_recovery</key>
+	<string>Please enter recovery code.</string>
+	<key>userType</key>
+	<string>User Type</string>
+	<key>inquiry</key>
+	<string>Inquiry</string>
+	<key>selectUserType</key>
+	<string>Please Select User Type</string>
+	<key>dearAll</key>
+	<string>Dear Traveller, if the desired country is not on this list, we have not yet been able to expand to this country. You should, however, know that it is our greatest intention to expand to all territories as soon as we possibly can. If you leave your email adrress by clicking on below link then we will send you information on our progress.</string>
+	<key>click_here</key>
+	<string>Click here!</string>
+	<key>SearchHint</key>
+	<string>Search</string>
+	<key>QualifiedGuideRequest</key>
+	<string>Qualified Guide Request</string>
+	<key>NoPriceValidation</key>
+	<string>Please fill atleast one pricing method</string>
+	<key>Remove.Hint</key>
+	<string>Remove</string>
+	<key>Update</key>
+	<string>Update</string>
+	<key>History.noData</key>
+	<string>There is no history</string>
+	<key>Description.noData</key>
+	<string>Please Enter Description</string>
+	<key>Description.required</key>
+	<string>Please Enter Description</string>
+	<key>Pending.status</key>
+	<string>(Pending)</string>
+	<key>locationCity</key>
+	<string>We will need to access your location to give you better experience.</string>
+	<key>locationCityAllow</key>
+	<string>Sure, I&apos;d like that</string>
+	<key>locationCityDontAllow</key>
+	<string>Do not allow</string>
+	<key>NoSearchResult</key>
+	<string>Sorry, that search gave nothing!</string>
+	<key>EnableLocatioFromSetting</key>
+	<string>Please enable location services from settings.</string>
+	<key>LocationDisable</key>
+	<string>Locations Disable</string>
+	<key>Allow</key>
+	<string>Allow</string>
+	<key>understandAlertBtn</key>
+	<string>Yes, I understand</string>
+	<key>CountryOptional</key>
+	<string>What country are you in?</string>
+	<key>LocationOptional</key>
+	<string>What city are you in?</string>
+	<key>guideRequest.message</key>
+	<string>I hold a certification to use this app as a guide.</string>
+	<key>agreeBtn</key>
+	<string>Yes, I agree</string>
+	<key>accept_tour_message</key>
+	<string>Are you sure you want to confirm this tour?</string>
+	<key>acceptTour_title</key>
+	<string>Accept Tour</string>
+	<key>haveCC</key>
+	<string>Have a coupon code?</string>
+	<key>couponcode.hint</key>
+	<string>Coupon Code</string>
+	<key>days.hint</key>
+	<string>days</string>
+	<key>hours.hint</key>
+	<string>hours</string>
+	<key>minutes.hint</key>
+	<string>minutes</string>
+	<key>seconds.hint</key>
+	<string>seconds</string>
+	<key>expired.hint</key>
+	<string>Expired</string>
+	<key>noCouponCode.hint</key>
+	<string>You don&apos;t have any coupon code.</string>
+	<key>searchCouponCode.hint</key>
+	<string>Search coupon code</string>
+	<key>usercc.hint</key>
+	<string>Use Coupon</string>
+	<key>or.hint</key>
+	<string>OR</string>
+	<key>Filter</key>
+	<string>Filter</string>
+	<key>pasttime.hint</key>
+	<string>The time you have selected is passed please select future time.</string>
+	<key>share.hint</key>
+	<string>Share</string>
+	<key>sharetext.hint</key>
+	<string>Do you want to share that you use the LIVE app to your friends on social media?</string>
+	<key>shareBodyAfterDay.hint</key>
+	<string>has enjoyed Live app</string>
+	<key>directsharefirst.hint</key>
+	<string>Do you want to share your completed tour experience of</string>
+	<key>directsharesecond.hint</key>
+	<string>with your friends?</string>
+	<key>directsharebody.hint</key>
+	<string>has enjoyed an experience with Live</string>
+	<key>shareReview.hint</key>
+	<string>Do you want to share this reviews to your friends?</string>
+	<key>termsconditions.hint</key>
+	<string>Term and Conditions</string>
+	<key>sendInformation.hint</key>
+	<string>Send me information</string>
+	<key>gotIt.hint</key>
+	<string>Got it!</string>
+	<key>provision.hint</key>
+	<string>Provision</string>
+	<key>uploadimagevideo.hint</key>
+	<string>Upload image or video</string>
+	<key>enter.hint</key>
+	<string>Enter</string>
+	<key>detail.hint</key>
+	<string>Details</string>
+	<key>options.hint</key>
+	<string>Options</string>
+	<key>passwordRicovery.hint</key>
+	<string>Password Recovery</string>
+	<key>passwordRicoveryMSG.hint</key>
+	<string>A user with this email address already exists, please press Password Recovery for recover your password or try another email address</string>
+	<key>stripe.hint</key>
+	<string>Stripe</string>
+	<key>paypal.hint</key>
+	<string>PayPal</string>
+	<key>recover.hint</key>
+	<string>Recover</string>
+	<key>forExistingCustomer.hint</key>
+	<string>For Existing Customers</string>
+	<key>registerAsTraveler.hint</key>
+	<string>Register as a Traveller</string>
+	<key>registerAsGuide.hint</key>
+	<string>Register as a Tourist Guide</string>
+	<key>autoSaveExperience.hint</key>
+	<string>Do you want to save changes before leaving?</string>
+	<key>leave.hint</key>
+	<string>Leave</string>
+	<key>updateprofilePic.hint</key>
+	<string>Update profile picture</string>
+	<key>takePhoto.hint</key>
+	<string>Take Photo</string>
+	<key>deletePhoto.hint</key>
+	<string>Delete Photo</string>
+	<key>mguide.hint</key>
+	<string>I am a guide</string>
+	<key>mtraveler.hint</key>
+	<string>I am a traveller</string>
+	<key>deleteExperenice</key>
+	<string>Are you sure you want to delete this experience?</string>
+	<key>CancelExperiences.title</key>
+	<string>Cancel Experiences</string>
+	<key>sendReview.title</key>
+	<string>Send review</string>
+	<key>selectAsCover.hint</key>
+	<string>Select as cover</string>
+	<key>tour.hint</key>
+	<string>Tour</string>
+	<key>AddExperience.hint</key>
+	<string>Add Experience</string>
+	<key>ChooseCity.hint</key>
+	<string>Choose city</string>
+	<key>Book.title</key>
+	<string>Book</string>
+	<key>CreateExperience.hint</key>
+	<string>Create Experience</string>
+	<key>Error.title</key>
+	<string>Error</string>
+	<key>ok.tourBtn</key>
+	<string>OK</string>
+	<key>maxfilter.hint</key>
+	<string>Maximum price for the whole tour</string>
+	<key>PleaseLogIn.hint</key>
+	<string>Please login to manage your experience</string>
+	<key>PleaseLogIn.Chathint</key>
+	<string>Please login to manage your chats</string>
+	<key>Delete.Chat</key>
+	<string>Delete Chat</string>
+	<key>enterCoupon.hint</key>
+	<string>Enter coupon</string>
+	<key>Free.hint</key>
+	<string>Free</string>
+	<key>NoChatHintText</key>
+	<string>You don&apos;t have chats yet. Click &quot;+&quot; button to add new chat</string>
+	<key>accessLocation</key>
+	<string>Access your location</string>
+	<key>AddTime.hint</key>
+	<string>Add time</string>
+	<key>AddTimeMSG.hint</key>
+	<string>When do you want to add times?</string>
+	<key>ForAllDays.hint</key>
+	<string>For all days</string>
+	<key>NoTime.hint</key>
+	<string>No times</string>
+	<key>ScheduleDates.hint</key>
+	<string>Schedule dates</string>
+	<key>ScheduleDays.hint</key>
+	<string>Schedule days</string>
+	<key>Custom</key>
+	<string>Custom</string>
+	<key>badge.hint</key>
+	<string>Click to upload valid Guide Certification</string>
+	<key>experienceBook.hint</key>
+	<string>Are you sure you want to proceed with this booking? Bookings can not be cancelled when its less than 48 hours left until start of experience</string>
+	<key>update_badge</key>
+	<string>Update badge</string>
+	<key>directReplyHint</key>
+	<string>Type your reply here</string>
+	<key>accept.hint</key>
+	<string>Accept</string>
+	<key>cancelTourWithOffer.hint</key>
+	<string>Do you want to cancel the tour or offer another day?</string>
+	<key>offerDay.hint</key>
+	<string>Offer Another Day</string>
+	<key>close.hint</key>
+	<string>Close</string>
+	<key>suggest.hint</key>
+	<string>Suggest</string>
+	<key>InstantMessage.hint</key>
+	<string>Please suggest the most convenient time to book this experience</string>
+	<key>In.hint</key>
+	<string>In</string>
+	<key>MyLive.Chat</key>
+	<string>Chat</string>
+	<key>MyLive.offerDay</key>
+	<string>Offer another day</string>
+	<key>MyLive.Bytraveler</key>
+	<string>By Traveller</string>
+	<key>MyLive.Byguide</key>
+	<string>By Guide</string>
+	<key>MyLive.Accepted</key>
+	<string>Accepted</string>
+	<key>MyLive.Confirmed</key>
+	<string>Confirmed</string>
+	<key>MyLive.Cancelled</key>
+	<string>Cancelled</string>
+	<key>MyLive.CancelExperiences</key>
+	<string>Cancel experience</string>
+	<key>View.hint</key>
+	<string>View</string>
+	<key>requested.hint</key>
+	<string>Requested</string>
+    <key>PaymentSuccess.hint</key>
+    <string>Payment successful</string>
+    <key>BookingFail.hint</key>
+    <string>Booking fail</string>
+    <key>PaymentSuccessMSG.hint</key>
+    <string>Your transaction is completed successfully.Please note your transactionID for the future references.</string>
+    <key>TransactionID.hint</key>
+    <string>TransactionID:</string>
+    <key>Copy.hint</key>
+    <string>Copy</string>
+    <key>SuggestAnotherDay.hint</key>
+    <string>Suggest another day</string>
+    <key>noCountry.hint</key>
+    <string>Can't find your country</string>
+    <key>noCouponCode.hint</key>
+    <string> You don't have any coupon code</string>
+    <key>addNewCouponCode.hint</key>
+    <string>Add a new coupon</string>
+    <key>enterCouponcode.hint</key>
+    <string>Enter coupon code</string>
+    <key>validationenterCouponcode.hint</key>
+    <string>Please enter coupon code</string>
+    <key>messages.hint</key>
+    <string>Messages</string>
+    <key>notifications.hint</key>
+    <string>Notifications</string>
+    <key>preview.hint</key>
+    <string>Preview</string>
+    <key>yourbio.hint</key>
+    <string>Your Bio</string>
+    <key>phoneNumber.hint</key>
+    <string>Phone</string>
+    <key>alreadygotrecoverycode.hint</key>
+    <string>Already got recovery code?</string>
+    <key>selectlocation.hint</key>
+    <string>Please select location.</string>
+    <key>yourCouponcode.hint</key>
+    <string>Your coupon number</string>
+    <key>selectFromList.hint</key>
+    <string>Select from list</string>
+    <key>noavailablecoupon.hint</key>
+    <string>No available coupons</string>
+    <key>searchCoupon.hint</key>
+    <string>Search coupon</string>
+    <key>nologinContactus.hint</key>
+    <string>Please login to contact our customer support.</string>
+    <key>rateexperience.hint</key>
+    <string>Rate the experience</string>
+    <key>rateexperiencedetail.hint</key>
+    <string>Sorry,you've rated this experience before</string>
+    <key>entercaptcha.hint</key>
+    <string>Captcha Code</string>
+    <key>pleaseentercaptcha.hint</key>
+    <string>Please Enter Captcha</string>
+    <key>noMatchcaptcha.hint</key>
+    <string>Captcha do not match</string>
+    <key>noCityResponce.hint</key>
+    <string>Sorry, there are currently no experiences added for this location!</string>
+     <key>continueBrowsing</key>
+    <string>Continue browsing</string>
+    <key>inviteFriend.hint</key>
+    <string>Invite Friends</string>
+    <key>fromContact.hint</key>
+    <string>From Contacts</string>
+    <key>byEmail.hint</key>
+    <string>By Email</string>
+    <key>noContactFound.hint</key>
+    <string>No contacts found with email address</string>
+    <key>userInvitationHint</key>
+    <string>Enter the email of person you want to send the invitation.</string>
+    <key>sendInvitationHint</key>
+    <string>Send invitation</string>
+    <key>invitationSentTitle</key>
+    <string>Invitation sent</string>
+    <key>invitationSentMSG</key>
+    <string>Your invitation has been successfully sent to</string>
+    <key>invited.hint</key>
+    <string>Invited</string>
+    <key>priceperpersonhourly.hint</key>
+    <string>price per person (hourly)</string>
+    <key>grouppricehourly.hint</key>
+    <string>price per group (hourly)</string>
+    <key>startime.hint</key>
+    <string>start time</string>
+    <key>pickstartdate.hint</key>
+    <string>Pick Start Date</string>
+    <key>startdate.hint</key>
+    <string>start date</string>
+    <key>pickenddate.hint</key>
+    <string>Pick End Date</string>
+    <key>enddate.hint</key>
+    <string>end date</string>
+    <key>from.hint</key>
+    <string>From</string>
+    <key>to.hint</key>
+    <string>To</string>
+    <key>csrDetail.hint</key>
+    <string>CSR Information</string>
+    <key>experience.hint</key>
+    <string>Experience</string>
+    <key>percentage.hint</key>
+    <string>Percentage</string>
+    <key>donation.hint</key>
+    <string>Donation</string>
+    <key>onlyUserlettersAndNumber.hint</key>
+    <string>Only use letters and numbers</string>
+    <key>bookUberRide.hint</key>
+    <string>Book an Uber Ride</string>
+    <key>bookUberRideMessage.hint</key>
+    <string>Do you want to book an uber ride for the experience</string>
+    <key>aboutus.hint</key>
+    <string>About Us</string>
+    <key>appVersion.hint</key>
+    <string>App version</string>
+    <key>unableToAddWishList.hint</key>
+    <string>You can not wishlist your own tour!!!</string>
+</dict>
+</plist>
